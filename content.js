@@ -23,7 +23,7 @@ const BLOG_CONTENT = {
   site: {
     name: "The Wandering Soul",
     email: "cjkallevig@gmail.com",
-    footerMessage: "For the places that stay with us, and the stories we bring home.",
+    footerMessage: "stories from my travels.",
     footerTagline: "Enjoy the road."
   },
 
@@ -71,8 +71,8 @@ const BLOG_CONTENT = {
     ],
     signoff: "Ill see you out there!.",
     bottomCaption: "thewanderingsoul",
-    photoLinksHeading: "More From",
-    photoLinksAccent: "the Road."
+    photoLinksHeading: "more from",
+    photoLinksAccent: "the road..."
   },
 
   // The four picture links at the bottom of Home. Keep exactly four if you
@@ -274,9 +274,9 @@ const BLOG_CONTENT = {
   // SECTION 11 — BOTTOM CONTACT PANEL
   // ========================================================================
   contact: {
-    smallHeading: "HAVE A STORY TO SHARE?",
-    title: "Let's keep in",
-    titleAccent: "touch.",
-    message: "Travel tips, favourite places, or just a hello — I'd love to hear from you."
+    smallHeading: "thewanderingsoul?",
+    title: "tell me about your",
+    titleAccent: "travels.",
+    message: "I'd love to hear your story."
   }
 };
