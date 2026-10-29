@@ -52,7 +52,7 @@ const BLOG_CONTENT = {
     smallHeading: "THE WANDERING SOUL — A PERSONAL JOURNAL",
     title: "What is",
     titleAccent: "adventure?",
-    lead: "What is Adventure? Is it doing something you've never done before? Does it require you to travel a certain distance? Or maybe you need to spend just enough money for it to be considered so.
+    lead: `What is Adventure? Is it doing something you've never done before? Does it require you to travel a certain distance? Or maybe you need to spend just enough money for it to be considered so.
 
 I tell you truth. Adventure, or more importantly the pursuit of such, is more of a state of mind. An allowance for chaos and the ability to adapt. Adventure is seeking discovery and experience while paying the price of comfort and convenience.
 
@@ -80,11 +80,8 @@ This will now, and will always be the quote I live my life by, and I hope you do
 
 The path of Adventure or more importantly, the mindset of such, will allow you to experience life in a way you never done thus far. See things you never thought you'd see, and do the things you never thought you'd do.
 
-So. Enjoy the tales and Memoirs of The Wandering Soul. May they inspire you to one day set out for a grand adventure of your own. I wish you all the best of luck. May your sails be filled, your paths windy, and your books chock full of the stories, tales, and memoirs of the life you lived along the roads of Adventure...
-
-: [
-      
-    ],
+So. Enjoy the tales and Memoirs of The Wandering Soul. May they inspire you to one day set out for a grand adventure of your own. I wish you all the best of luck. May your sails be filled, your paths windy, and your books chock full of the stories, tales, and memoirs of the life you lived along the roads of Adventure...`,
+    paragraphs: [],
     signoff: "Ill see you out there!.",
     bottomCaption: "thewanderingsoul",
     photoLinksHeading: "More From",
