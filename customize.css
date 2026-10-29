@@ -34,7 +34,7 @@ h1, h2, h3, .brand, .footer-brand {
 }
 
 .home-intro .home-lead {
-  font-size: clamp(19px, 2.5vw, 28px);
+  font-size: 25px;
 }
 
 .home-highlight {
@@ -47,7 +47,7 @@ h1, h2, h3, .brand, .footer-brand {
   }
 
   .home-intro .home-lead {
-    font-size: 21px;
+    font-size: 25px;
   }
 }
 
