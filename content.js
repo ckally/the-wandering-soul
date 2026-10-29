@@ -23,7 +23,7 @@ const BLOG_CONTENT = {
   site: {
     name: "The Wandering Soul",
     email: "cjkallevig@gmail.com",
-    footerMessage: "stories from my travels.",
+    footerMessage: "Stories from my travels.",
     footerTagline: "Enjoy the road."
   },
 
@@ -71,7 +71,7 @@ const BLOG_CONTENT = {
     ],
     signoff: "Ill see you out there!.",
     bottomCaption: "thewanderingsoul",
-    photoLinksHeading: "more from",
+    photoLinksHeading: "More from",
     photoLinksAccent: "the road..."
   },
 
@@ -274,8 +274,8 @@ const BLOG_CONTENT = {
   // SECTION 11 — BOTTOM CONTACT PANEL
   // ========================================================================
   contact: {
-    smallHeading: "thewanderingsoul?",
-    title: "tell me about your",
+    smallHeading: "thewanderingsoul",
+    title: "Tell me about your",
     titleAccent: "travels.",
     message: "I'd love to hear your story."
   }
