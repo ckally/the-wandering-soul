@@ -1,0 +1,11 @@
+/* Subtle cartographic details replace the former star decorations. */
+.new-home-hero{background-color:#26342d;background-image:repeating-linear-gradient(0deg,transparent 0 79px,#dacbaa08 80px),repeating-linear-gradient(90deg,transparent 0 79px,#dacbaa08 80px),radial-gradient(circle at 50% 42%,#35473a 0%,#27362d 48%,#202925 100%)}
+.new-home-hero:before{width:48vw;height:48vw;top:-32vw;right:-12vw;border:1px dashed #c8b89d22}
+.new-home-hero:after{width:34vw;height:34vw;bottom:-25vw;left:-9vw;border:1px dashed #c8b89d20}
+.home-ornament{right:4%;top:7%;width:270px;height:270px;font-size:0;color:transparent;background:url('compass.svg') center/contain no-repeat;opacity:.25;transform:rotate(-14deg)}
+.home-aircraft{position:absolute;left:2%;bottom:9%;width:270px;height:270px;background:url('cessna.svg') center/contain no-repeat;opacity:.25;transform:rotate(-27deg);pointer-events:none}
+.interior-hero{background-image:repeating-linear-gradient(0deg,transparent 0 64px,#dacbaa07 65px),repeating-linear-gradient(90deg,transparent 0 64px,#dacbaa07 65px),linear-gradient(110deg,#27372e,#29362f)}
+.interior-hero .decor{right:5%;top:18px;width:270px;height:270px;font-size:0;background:url('compass.svg') center/contain no-repeat;opacity:.16;transform:rotate(16deg)}
+.eyebrow:before{content:'⌖';font-size:17px;margin-right:10px;vertical-align:-1px}
+.brand-symbol{font-family:Georgia,serif;font-size:28px}
+@media(max-width:740px){.home-ornament{width:165px;height:165px;right:-30px;top:28px;opacity:.15}.home-aircraft{width:155px;height:155px;left:-48px;bottom:8%;opacity:.18}.interior-hero .decor{width:170px;height:170px;right:-35px;top:32px;opacity:.13}}

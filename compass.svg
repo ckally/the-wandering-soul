@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="none" stroke="#d6b891">
+  <circle cx="160" cy="160" r="139" stroke-width="1.4"/>
+  <circle cx="160" cy="160" r="124" stroke-width=".65" stroke-dasharray="2 9"/>
+  <circle cx="160" cy="160" r="91" stroke-width=".8"/>
+  <circle cx="160" cy="160" r="14" stroke-width="1"/>
+  <path d="M160 23V45 M160 275V297 M23 160H45 M275 160H297 M63 63L79 79 M241 241L257 257 M257 63L241 79 M79 241L63 257" stroke-width="1.5"/>
+  <path d="M160 49L175 145L160 160L145 145Z" fill="#d6b891" fill-opacity=".25" stroke-width="1.4"/>
+  <path d="M160 271L145 175L160 160L175 175Z" fill="#d6b891" fill-opacity=".08" stroke-width="1.4"/>
+  <path d="M49 160L145 145L160 160L145 175Z" fill="#d6b891" fill-opacity=".12" stroke-width="1.2"/>
+  <path d="M271 160L175 175L160 160L175 145Z" fill="#d6b891" fill-opacity=".12" stroke-width="1.2"/>
+  <path d="M160 117L166 154L160 160L154 154Z M160 203L154 166L160 160L166 166Z M117 160L154 154L160 160L154 166Z M203 160L166 166L160 160L166 154Z" stroke-width="1"/>
+  <text x="160" y="15" text-anchor="middle" fill="#d6b891" stroke="none" font-family="Georgia,serif" font-size="12">N</text>
+  <text x="160" y="317" text-anchor="middle" fill="#d6b891" stroke="none" font-family="Georgia,serif" font-size="12">S</text>
+  <text x="310" y="164" text-anchor="middle" fill="#d6b891" stroke="none" font-family="Georgia,serif" font-size="12">E</text>
+  <text x="10" y="164" text-anchor="middle" fill="#d6b891" stroke="none" font-family="Georgia,serif" font-size="12">W</text>
+</svg>

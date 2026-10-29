@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 310" fill="none" stroke="#d9b98a" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Cropped front of the owner's Cobalt, with its distinctive dual-projector right headlamp. -->
+  <path d="M-20 61Q33 27 108 26L213 27Q253 31 278 62L302 108L313 162L309 261Q304 283 280 291H-15Z" fill="#d9b98a" fill-opacity=".16" stroke-width="2.2"/>
+  <path d="M-15 47Q34 18 108 18H213Q244 20 262 53L281 111Q193 96 83 103L-15 110Z" fill="#d9b98a" fill-opacity=".1" stroke-width="1.7"/>
+  <path d="M-12 98Q128 91 276 111M239 38Q257 71 265 100" stroke-width="1"/>
+  <path d="M278 92Q301 79 318 92Q332 99 330 107Q314 120 287 111Z" fill="#d9b98a" fill-opacity=".28" stroke-width="1.5"/>
+  <path d="M-14 118Q91 112 175 121Q225 107 281 128" stroke-width="1.7"/>
+  <path d="M-15 122Q89 114 179 125L266 111Q287 125 297 146L303 171" fill="#d9b98a" fill-opacity=".11" stroke-width="1.7"/>
+  <path d="M180 126Q225 113 276 116Q293 125 297 148Q300 175 281 190Q235 205 181 196Q165 177 172 153Z" fill="#d9b98a" fill-opacity=".22" stroke-width="2.3"/>
+  <path d="M187 140Q231 123 274 129Q286 142 284 163Q280 178 265 185Q228 192 187 184Q179 168 181 153Z" stroke-width="1.1"/>
+  <circle cx="205" cy="166" r="24" stroke-width="2"/>
+  <circle cx="205" cy="166" r="17" stroke-width="1.2"/>
+  <circle cx="205" cy="166" r="9" fill="#d9b98a" fill-opacity=".25" stroke-width="1"/>
+  <circle cx="252" cy="160" r="26" stroke-width="2"/>
+  <circle cx="252" cy="160" r="19" stroke-width="1.2"/>
+  <circle cx="252" cy="160" r="11" fill="#d9b98a" fill-opacity=".16" stroke-width="1"/>
+  <path d="M184 137Q234 119 277 133M183 191Q229 205 278 188" stroke-width="1"/>
+  <path d="M-15 146Q75 151 169 140L163 189Q76 198-15 191Z" fill="#d9b98a" fill-opacity=".2" stroke-width="1.6"/>
+  <path d="M-10 158Q75 161 166 152M-10 175Q74 178 165 169M-10 187Q74 189 164 182" stroke-width="1.1"/>
+  <path d="M64 160H82V154H109V160H127V173H109V179H82V173H64Z" fill="#d9b98a" fill-opacity=".55" stroke-width="1.5"/>
+  <path d="M-14 199Q86 211 169 200Q233 215 303 192M-16 243Q63 256 154 249Q236 251 304 230" stroke-width="1.7"/>
+  <path d="M-13 260Q68 271 154 261L184 225Q206 219 241 226Q263 232 265 246Q266 273 238 281L-16 281Z" fill="#d9b98a" fill-opacity=".17" stroke-width="1.7"/>
+  <path d="M-13 271Q77 282 161 270Q172 242 197 237Q222 233 247 245Q250 261 236 267" stroke-width=".9"/>
+  <path d="M273 230Q299 231 303 250V268Q300 285 285 287" stroke-width="1.1"/>
+  <path d="M-15 293Q126 306 263 294" stroke-width="1.6"/>
+</svg>

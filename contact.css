@@ -1,0 +1,6 @@
+.contact-strip{display:flex;align-items:center;justify-content:space-between;gap:45px;padding:70px max(5%,calc((100vw - 1350px)/2));background:#304037;border-top:1px solid #62746655}
+.contact-strip h2{font-size:clamp(35px,4.5vw,56px);margin:10px 0 9px}
+.contact-strip p{color:#becbbc;font-size:14px;line-height:1.8;margin:0}
+.contact-strip .btn{flex-shrink:0;white-space:nowrap}
+.about-contact{margin-top:23px}
+@media(max-width:740px){.contact-strip{flex-direction:column;align-items:flex-start;padding:58px 6%;gap:26px}.contact-strip .btn{width:100%}}

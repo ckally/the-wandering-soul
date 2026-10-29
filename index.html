@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Wandering Soul — stories, photographs and favourite places collected along the way.">
+  <title>The Wandering Soul — A personal travel journal</title>
+
+  <!-- ================================================================
+       SECTION A — FONTS AND STYLES
+       ================================================================
+       For simple colour/font changes, edit customize.css.
+       You shouldn't need to edit the other stylesheets.
+  -->
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="new.css">
+  <link rel="stylesheet" href="compass.css">
+  <link rel="stylesheet" href="manuscript.css">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="customize.css">
+</head>
+
+<body>
+  <!-- ================================================================
+       SECTION B — HEADER AND MAIN NAVIGATION
+       ================================================================
+       Each href="#name" matches a page name in app.js.
+       To reorder the menu, move an entire <a> link line.
+       The page content itself is edited in content.js.
+  -->
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <span class="brand-symbol">⌖</span>
+      <span>THE WANDERING SOUL</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#travels" data-nav="travels">Travels</a>
+      <a href="#places" data-nav="places">Oh, the Places You'll Go</a>
+      <a href="#gallery" data-nav="gallery">Gallery</a>
+      <a href="#music" data-nav="music">To Pair With a Long Drive</a>
+      <a href="#about" data-nav="about">About Me</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <!-- ================================================================
+       SECTION C — MAIN PAGE CONTENT
+       ================================================================
+       The pages are filled automatically from content.js by app.js.
+       You do not need to paste your stories directly into this HTML.
+  -->
+  <main id="app"></main>
+
+  <!-- ================================================================
+       SECTION D — CONTACT PANEL (VISIBLE AT THE BOTTOM OF EVERY PAGE)
+       ================================================================
+       Edit the wording and email address in content.js sections 1 and 11.
+  -->
+  <section class="contact-strip" aria-label="Contact me">
+    <div>
+      <span class="eyebrow" id="contact-small-heading">HAVE A STORY TO SHARE?</span>
+      <h2 id="contact-title">Let's keep in <em>touch.</em></h2>
+      <p id="contact-message">Travel tips, favourite places, or just a hello — I'd love to hear from you.</p>
+    </div>
+    <a class="btn solid" id="contact-button" href="mailto:cjkallevig@gmail.com">CONTACT ME <span>↗</span></a>
+  </section>
+
+  <!-- ================================================================
+       SECTION E — FOOTER
+       ================================================================
+       Change the personal footer wording in content.js section 1.
+  -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <a class="footer-brand" href="#home">The Wandering Soul<span>⌖</span></a>
+        <p id="footer-message">For the places that stay with us, and the stories we bring home.</p>
+      </div>
+
+      <div class="footer-links">
+        <div>
+          <small>EXPLORE</small>
+          <a href="#travels">On the Road &amp; The Day to Day</a>
+          <a href="#places">Oh, the Places You'll Go</a>
+          <a href="#gallery">Gallery</a>
+        </div>
+        <div>
+          <small>MORE</small>
+          <a href="#music">To Pair With a Long Drive</a>
+          <a href="#about">About Me</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> THE WANDERING SOUL</span>
+      <span id="footer-tagline">COLLECT MOMENTS, NOT MILES. ⌖</span>
+    </div>
+  </footer>
+
+  <!-- ================================================================
+       SECTION F — FULL-SIZE PHOTO VIEWER
+       ================================================================
+       This opens when someone clicks a gallery photograph.
+       No regular editing needed here.
+  -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+    <img id="lightboxImage" alt="Expanded travel photograph">
+    <span id="lightboxCaption"></span>
+  </div>
+
+  <!-- ================================================================
+       SECTION G — JAVASCRIPT FILES
+       ================================================================
+       IMPORTANT: content.js MUST load before app.js.
+       Edit content.js. The app.js file builds the pages automatically.
+  -->
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

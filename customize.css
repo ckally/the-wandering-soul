@@ -1,0 +1,72 @@
+/* ============================================================================
+   THE WANDERING SOUL — EASY STYLE SETTINGS
+   ============================================================================
+   You can edit the HEX colours below (example: #202925).
+   Save and refresh your browser. This file loads after the other CSS files.
+   For content, use content.js instead.
+*/
+
+:root {
+  --bg: #202925;       /* Main deep-green background */
+  --bg2: #27332e;      /* Secondary green */
+  --panel: #303d36;    /* Card/panel background */
+  --cream: #f1ecdf;    /* Main text colour */
+  --muted: #c3c7b9;    /* Soft paragraph text */
+  --subtle: #9eaa9d;   /* Less important text */
+  --accent: #d1ac7c;   /* Antique-gold highlights and buttons */
+  --line: #526058;     /* Dividers and borders */
+  --serif: "Times New Roman", Times, serif;
+}
+
+/* Change the fonts here if you ever want to switch from Times New Roman. */
+h1, h2, h3, .brand, .footer-brand {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.brand {
+  font-size: 15px;
+  letter-spacing: 0.11em;
+  font-weight: 600;
+}
+
+/* ============================================================================
+   VIDEO GALLERY STYLING — no need to edit for normal video updates.
+   Just add a video in content.js section 7.
+*/
+.video-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.video-entry {
+  background: #2c3932;
+  padding-bottom: 22px;
+}
+
+.video-embed {
+  aspect-ratio: 16 / 9;
+  background: #17221c;
+}
+
+.video-embed iframe,
+.video-embed video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: cover;
+}
+
+.video-entry h3,
+.video-entry p {
+  padding: 0 20px;
+}
+
+.video-entry h3 { margin: 22px 0 7px; }
+.video-entry p { color: var(--muted); }
+.video-help { padding: 20px; color: var(--muted); }
+
+@media (max-width: 740px) {
+  .video-gallery-grid { grid-template-columns: 1fr; }
+}
