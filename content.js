@@ -52,13 +52,41 @@ const BLOG_CONTENT = {
     smallHeading: "THE WANDERING SOUL — A PERSONAL JOURNAL",
     title: "What is",
     titleAccent: "adventure?",
-    lead: "Maybe it's the places we go. Maybe it's the people we meet. Or maybe it's simply having the courage to see the world—and ourselves—a little differently.",
-    paragraphs: [
-      "Adventure doesn't always begin with a plane ticket or a packed suitcase. Sometimes it starts with a change of perspective, a road you haven't taken, or a small moment that reminds you how wonderful it is to be alive.",
-      "This is a space for collecting those moments. For stories written along the way, the places that linger in our hearts, and the beautiful, unexpected things found somewhere between leaving and coming home."
+    lead: "What is Adventure? Is it doing something you've never done before? Does it require you to travel a certain distance? Or maybe you need to spend just enough money for it to be considered so.
+
+I tell you truth. Adventure, or more importantly the pursuit of such, is more of a state of mind. An allowance for chaos and the ability to adapt. Adventure is seeking discovery and experience while paying the price of comfort and convenience.
+
+The road of adventure however, is not so straight and traught. Rather the opposite. The road of adventure often displays signs of decay. It has many potholes, and turns and is often the least traughten path of them all. But that! That, is the key of adventure. Taking the path that most scares you for the purpose of experience, building of character, wisdom, and for the tales and stories that will be told for millenia.
+
+And it's different for everyone, of what that adventure is. To some, it's skydiving, to others it going on a plane, or even leaving the country. The easiest way to tell if an adventure is worth doing, is to ask your self this question.
+
+"If I don't do this, will I regret it?". It's that simple.
+
+The world is filled with people who are too afraid to make the first step and regret it in their days of old. Don't be like those people. Be you. Be an Adventurer, an explorer, a Wandering Soul, if you will.
+
+Look. If were being honest, I am like those people of whom I speak of.
+
+Scared.
+
+Afraid.
+
+Nervous.
+
+Wondering if I should or shouldn't do something simply because it scares me. But I am always reminded of the quote that was written, and placed in the end credits of one of the most adventurous and influential game of all time. Minecraft. And it goes like this...
+
+"Twenty years from now, you will be more disappointed with the things you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbour. Catch the trade winds in your sails. Explore. Dream. Discover." - Unknown.
+
+This will now, and will always be the quote I live my life by, and I hope you do the same.
+
+The path of Adventure or more importantly, the mindset of such, will allow you to experience life in a way you never done thus far. See things you never thought you'd see, and do the things you never thought you'd do.
+
+So. Enjoy the tales and Memoirs of The Wandering Soul. May they inspire you to one day set out for a grand adventure of your own. I wish you all the best of luck. May your sails be filled, your paths windy, and your books chock full of the stories, tales, and memoirs of the life you lived along the roads of Adventure...
+
+: [
+      
     ],
-    signoff: "Here's to wherever we wander next.",
-    bottomCaption: "A LIFE IN STORIES, PLACES & MOMENTS",
+    signoff: "Ill see you out there!.",
+    bottomCaption: "thewanderingsoul",
     photoLinksHeading: "More From",
     photoLinksAccent: "the Road."
   },
