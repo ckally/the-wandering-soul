@@ -89,10 +89,10 @@ const BLOG_CONTENT = {
   // ========================================================================
   pages: {
     travels: {
-      smallHeading: "WORDS FROM THE ROAD",
-      title: "The",
+      smallHeading: "FROM PAPER TO PAGES",
+      title: "Caleb's",
       titleAccent: "Journal.",
-      description: "A little of the everyday and a little of the extraordinary. Stories for all the moments in between."
+      description: "Stories long and short from 2024 and beyond."
     },
     places: {
       smallHeading: "THE WORLD IS FULL OF WONDER",
