@@ -139,8 +139,8 @@ function renderTravels() {
           <button data-journal-tab="The Day to Day" role="tab" aria-selected="${dayToDay}" class="${dayToDay ? "active" : ""}">The Day to Day</button>
         </div>
         <div class="tab-description">
-          <span class="eyebrow">${dayToDay ? "THE EVERYDAY STORIES" : "THE PLACES & THE JOURNEYS"}</span>
-          <p>${dayToDay ? "Little thoughts, ordinary days, and moments that ask to be remembered." : "Notes from elsewhere: the journeys, detours, and places that leave their mark."}</p>
+          <span class="eyebrow">${dayToDay ? "THE EVERYDAY STORIES" : "Overnights and weekends away"}</span>
+          <p>${dayToDay ? "Just because it's not a trip, doesn't mean it's not interesting." : "Some inspirations for your future adventures."}</p>
         </div>
         <div class="journal-grid two-col">
           ${displayedJournals.length ? displayedJournals.map(journalCard).join("") : '<p>New stories coming soon.</p>'}
