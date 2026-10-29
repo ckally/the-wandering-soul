@@ -49,7 +49,7 @@ const BLOG_CONTENT = {
   // SECTION 3 — HOME PAGE WORDING
   // ========================================================================
   home: {
-    smallHeading: "THE WANDERING SOUL — A PERSONAL JOURNAL",
+    smallHeading: "THE WANDERING SOUL — The Stories and Adventures of Caleb",
     title: "What is",
     titleAccent: "adventure?",
     lead: `What is Adventure? Is it doing something you've never done before? Does it require you to travel a certain distance? Or maybe you need to spend just enough money for it to be considered so.
