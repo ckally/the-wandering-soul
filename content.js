@@ -24,7 +24,7 @@ const BLOG_CONTENT = {
     name: "The Wandering Soul",
     email: "cjkallevig@gmail.com",
     footerMessage: "For the places that stay with us, and the stories we bring home.",
-    footerTagline: "COLLECT MOMENTS, NOT MILES. ⌖"
+    footerTagline: "Enjoy the road."
   },
 
   // ========================================================================
