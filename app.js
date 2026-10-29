@@ -26,6 +26,11 @@ function escapeHTML(value) {
   })[character]);
 }
 
+function renderHomeParagraph(text) {
+  const phrase = escapeHTML("a Wandering Soul");
+  return escapeHTML(text).replace(phrase, `<span class="home-highlight">${phrase}</span>`);
+}
+
 // Images can be shortcuts, links, paths, or just filenames in assets/gallery/.
 function imageUrl(value) {
   const source = content.images[value] || value || "";
@@ -87,7 +92,7 @@ function renderHome() {
         <h1>${escapeHTML(home.title)} <em>${escapeHTML(home.titleAccent)}</em></h1>
         <span class="home-rule"></span>
         <p class="home-lead">${escapeHTML(home.lead)}</p>
-        ${home.paragraphs.map(text => `<p>${escapeHTML(text)}</p>`).join("")}
+        ${home.paragraphs.map(text => `<p>${renderHomeParagraph(text)}</p>`).join("")}
         <div class="hero-signoff">${escapeHTML(home.signoff)} <span>⌖</span></div>
       </div>
       <div class="home-bottom-label">${escapeHTML(home.bottomCaption)}</div>

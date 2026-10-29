@@ -29,6 +29,28 @@ h1, h2, h3, .brand, .footer-brand {
   font-weight: 600;
 }
 
+.home-intro p {
+  font-size: 13px;
+}
+
+.home-intro .home-lead {
+  font-size: clamp(19px, 2.5vw, 28px);
+}
+
+.home-highlight {
+  color: var(--accent);
+}
+
+@media (max-width: 740px) {
+  .home-intro p {
+    font-size: 12px;
+  }
+
+  .home-intro .home-lead {
+    font-size: 21px;
+  }
+}
+
 /* ============================================================================
    VIDEO GALLERY STYLING — no need to edit for normal video updates.
    Just add a video in content.js section 7.
