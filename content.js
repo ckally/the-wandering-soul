@@ -45,7 +45,7 @@ const BLOG_CONTENT = {
     hill: "hill.jpg",
     Caleb: "Caleb.jpg",
     Roadtrip: "Road.png",
-    cars: "cars.jpg",
+    cars: "cars.jpg"
   },
 
   // ========================================================================
