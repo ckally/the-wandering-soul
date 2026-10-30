@@ -297,7 +297,7 @@ function renderMusic() {
     <section class="section">
       <div class="container music-layout">
         <div class="music-intro">
-          <span class="eyebrow">Music From Spotify</span>
+          <span class="eyebrow"> Spotify</span>
           <h2>${escapeHTML(music.introTitle)} <em>${escapeHTML(music.introAccent)}</em></h2>
           <p>${escapeHTML(music.introText)}</p>
           <div class="music-art">${imageTag("road", "Open road at golden hour")}<span><b>⌖</b></span></div>

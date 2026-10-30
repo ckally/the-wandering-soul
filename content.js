@@ -238,9 +238,9 @@ const BLOG_CONTENT = {
   // Add a song with { title, artist, note, link }.
   // Spotify search links work well if you don't have the exact song link.
   music: {
-    introTitle: "For the miles",
-    introAccent: "between.",
-    introText: "There is a certain magic to a long drive with the perfect song playing. Here are a few tunes that feel like open roads, passing scenery, and the possibility of somewhere new.",
+    introTitle: "For on and off the",
+    introAccent: "road.",
+    introText: "Whether your driving down a coastline or flying above the clouds, put any of these on and make your travels just a little bit more interesting.",
     playlistLink: "https://open.spotify.com/playlist/2NHK9azpf5pZhVJOJPqQdH?si=bf87607d31704af3",
     playlistEmbed: "https://open.spotify.com/embed/playlist/2NHK9azpf5pZhVJOJPqQdH?si=bf87607d31704af3",
     songs: [
@@ -249,7 +249,8 @@ const BLOG_CONTENT = {
       { title: "Everybody Wants to Rule the World", artist: "Tears for Fears", note: "Into the sunset", link: "https://open.spotify.com/track/5Pn31029748v9X6dJ8Z1QZ?si=1234567890" },
       { title: "Ocean Man", artist: "Ween", note: "Up the coast", link: "https://open.spotify.com/track/6M14BiCN00nOsba4JaYsHW?si=97357b7cf60f49cb" },
       { title: "Beyond The Sea", artist: "Bobby Darin", note: "Travel back in time", link: "https://open.spotify.com/track/3KzgdYUlqV6TOG7JCmx2Wg?si=97f22f8087674301" },
-      { title: "The Shire", artist: "Howard Shore", note: "Off the beaten path", link: "https://open.spotify.com/track/6zW80jVqLtgSF1yCtGHiiD?si=9089cbfcc5b44339" }
+      { title: "The Shire", artist: "Howard Shore", note: "Off the beaten path", link: "https://open.spotify.com/track/6zW80jVqLtgSF1yCtGHiiD?si=9089cbfcc5b44339" },
+      { title: "Baby Driver", artist: "Simon & Garfunkel", note: "back country", link: "https://open.spotify.com/track/0si76EE5TVUriyT02srhrd?si=0af57e7b75034168" }
     ]
   },
 
