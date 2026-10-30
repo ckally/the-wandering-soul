@@ -43,6 +43,7 @@ const BLOG_CONTENT = {
     details: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1600&q=85",
     alpine: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=85",
     hill: "hill.jpg",
+    sunset: "Road.png",
     Caleb: "caleb.jpg"
   },
 
@@ -259,19 +260,19 @@ const BLOG_CONTENT = {
   // SECTION 10 — ABOUT ME PAGE
   // ========================================================================
   about: {
-    photo: "water",
+    photo: "Caleb",
     smallHeading: "WHO AM I?",
     title: "My name is Caleb. Also known as...",
     titleAccent: "The Wandering Soul ⌖ .",
     paragraphs: [
       "Hello to those who are reading this. My name is Caleb. I grew up in a small town called Chilliwack in the province of British Columbia, Canada.",
       "I have alot of passions like flying, music, photography, travelling, and more. Ive always wanted to see the world in it's entirety and all of the beauty it holds.",
-      "I am also a follower of Christ and try to live my life that like Jesus. Other general hobbies includes videogames like Destiny 2 and league of legends.",
+      "I am also a follower of Christ and try to live my life that like Jesus. Other general hobbies includes videogames like Destiny 2 and league of legends, Skiing, Golfing, yoyoing, and more I probably missed.",
       "My goal in life is to live small. I want to effect people with kindness and help where I can. Kind of like one of my favorite fictional characters from the book series and movies. The lord of the rings. His name is Samwise Gamgee. He was a simple hobbit who lived a simple life, but he was always willing to help and be there for his friends. I want to be like that.",
       "One of my favorite quotes is from a game I used to play called Minecraft. It goes like this: "
     ],
     quote: `"Twenty years from now, you will be more disappointed with the things you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbour. Catch the trade winds in your sails. Explore. Dream. Discover." - Unknown.`,
-    ending: "A great quote from a great game. Now of course there's more about me but I cant give it all away of course. So i'll leave that up to the stories from my advenures.",
+    ending: "A great quote from a great game. Now of course there's more about me but I can't give it all away of course. So i'll leave that up to the stories from my advenures.",
     signature: "That's all folks. Time for the road. From Caleb, The Wandering Soul."
   },
 

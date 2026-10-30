@@ -30,7 +30,7 @@ h1, h2, h3, .brand, .footer-brand {
 }
 
 .home-intro p {
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .home-intro .home-lead {
@@ -43,7 +43,7 @@ h1, h2, h3, .brand, .footer-brand {
 
 @media (max-width: 740px) {
   .home-intro p {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .home-intro .home-lead {
