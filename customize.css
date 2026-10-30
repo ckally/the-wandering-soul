@@ -94,6 +94,5 @@ h1, h2, h3, .brand, .footer-brand {
 }
 
 .about-layout img {
-  object-fit: contain;
-  object-position: center;
+  object-position: center 60%;
 }
