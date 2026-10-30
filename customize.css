@@ -92,3 +92,8 @@ h1, h2, h3, .brand, .footer-brand {
 @media (max-width: 740px) {
   .video-gallery-grid { grid-template-columns: 1fr; }
 }
+
+.about-layout img {
+  object-fit: contain;
+  object-position: center;
+}
