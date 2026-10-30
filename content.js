@@ -260,7 +260,7 @@ const BLOG_CONTENT = {
     photo: "water",
     smallHeading: "WHO AM I?",
     title: "Just a wandering soul. Also known as...",
-    titleAccent: "Caleb.",
+    titleAccent: "Caleb. The Wandering Soul ⌖ .",
     paragraphs: [
       "Welcome to The Wandering Soul. This is my own little corner for documenting the experiences that make life feel big—the unforgettable adventures and the quiet days alike.",
       "I've always loved the anticipation of a new place, the feeling of the road opening up, and the moments that find their way into your memory without you even noticing."
@@ -268,7 +268,7 @@ const BLOG_CONTENT = {
     quote: "For the love of adventure, in all its forms.",
     ending: "I'm glad you're here. I hope these pages remind you to stay curious, take the scenic route, and make room for a little more wonder.",
     signature: "That's all folks. Time for the road. From"
-  }, titleAccent: "The Wandering Soul ⌖ .",
+  },
 
   // ========================================================================
   // SECTION 11 — BOTTOM CONTACT PANEL
