@@ -139,8 +139,8 @@ function renderTravels() {
           <button data-journal-tab="The Day to Day" role="tab" aria-selected="${dayToDay}" class="${dayToDay ? "active" : ""}">The Day to Day</button>
         </div>
         <div class="tab-description">
-          <span class="eyebrow">${dayToDay ? "THE EVERYDAY STORIES" : "THE PLACES & THE JOURNEYS"}</span>
-          <p>${dayToDay ? "Little thoughts, ordinary days, and moments that ask to be remembered." : "Notes from elsewhere: the journeys, detours, and places that leave their mark."}</p>
+          <span class="eyebrow">${dayToDay ? "THE EVERYDAY STORIES" : "Overnights and weekends away"}</span>
+          <p>${dayToDay ? "Just because it's not a trip, doesn't mean it's not interesting." : "Some inspirations for your future adventures."}</p>
         </div>
         <div class="journal-grid two-col">
           ${displayedJournals.length ? displayedJournals.map(journalCard).join("") : '<p>New stories coming soon.</p>'}
@@ -297,20 +297,20 @@ function renderMusic() {
     <section class="section">
       <div class="container music-layout">
         <div class="music-intro">
-          <span class="eyebrow">PRESS PLAY & GO</span>
+          <span class="eyebrow">Music From Spotify</span>
           <h2>${escapeHTML(music.introTitle)} <em>${escapeHTML(music.introAccent)}</em></h2>
           <p>${escapeHTML(music.introText)}</p>
-          <div class="music-art">${imageTag("road", "Open road at golden hour")}<span>THE ROAD TRIP EDIT <b>⌖</b></span></div>
+          <div class="music-art">${imageTag("road", "Open road at golden hour")}<span><b>⌖</b></span></div>
         </div>
         <div class="tracklist">
-          <div class="tracklist-title"><span class="eyebrow">THE STARTER PLAYLIST</span><small>${String(music.songs.length).padStart(2, "0")} SONGS / CURATED FOR THE ROAD</small></div>
+          <div class="tracklist-title"><span class="eyebrow">Top 7 Songs</span><small>${String(music.songs.length).padStart(2, "0")} Roadtrip N Travels</small></div>
           ${songRows}
           <a href="${escapeHTML(music.playlistLink)}" target="_blank" rel="noopener" class="btn solid playlist-link">LISTEN TO A FULL ROAD TRIP PLAYLIST ↗</a>
         </div>
       </div>
       <div class="container">
         <div class="spotify-embed">
-          <div><span class="eyebrow">KEEP LISTENING</span><h3>The road-trip soundtrack</h3><p>Listen here or open the playlist in Spotify.</p></div>
+          <div><span class="eyebrow">FULL-PLAYLIST</span><h3>The Wandering Soul Official Playlist</h3><p>Listen here or open the playlist in Spotify.</p></div>
           <iframe title="Spotify road trip playlist" src="${escapeHTML(music.playlistEmbed)}" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
       </div>

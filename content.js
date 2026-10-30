@@ -95,28 +95,28 @@ const BLOG_CONTENT = {
       description: "Stories long and short from 2024 and beyond."
     },
     places: {
-      smallHeading: "THE WORLD IS FULL OF WONDER",
+      smallHeading: "Ideas for your next adventure",
       title: "Oh, the Places",
       titleAccent: "You’ll Go.",
-      description: "A collection of the landscapes and little corners of the world that make a lasting impression."
+      description: "You never know where you might go if you just step out the door."
     },
     gallery: {
-      smallHeading: "FRAGMENTS OF A JOURNEY",
+      smallHeading: "Photos and Videos from the road",
       title: "The",
       titleAccent: "Gallery.",
-      description: "Photographs and moving moments from the road—a little scrapbook of what the world looked like along the way."
+      description: "If these are just the moments captured, imagine all the moments that weren't."
     },
     music: {
-      smallHeading: "THE SOUNDTRACK TO GOING SOMEWHERE",
+      smallHeading: "Music for the road",
       title: "To Pair With",
       titleAccent: "a Long Drive.",
-      description: "Good roads deserve good music. A little collection for open windows, late-night miles, and wherever the road takes you."
+      description: "Travel is the movement of our body to a place we've never been. But music is the motion and stamina in our mind."
     },
     about: {
-      smallHeading: "A LITTLE INTRODUCTION",
-      title: "About",
-      titleAccent: "Me.",
-      description: "The person behind the pages, the photographs, and all the little stories collected along the way."
+      smallHeading: "A LITTLE DETOUR",
+      title: "What's my",
+      titleAccent: "story?.",
+      description: "Just a bit of information about who I am and why I do what I do."
     }
   },
 
@@ -202,14 +202,14 @@ const BLOG_CONTENT = {
   // Add one object per photo. `image` is the file path or shortcut.
   // `caption` appears on the photo and underneath it when enlarged.
   photos: [
-    { image: "mountain", caption: "Above the clouds" },
-    { image: "coast", caption: "The coastal afternoon" },
-    { image: "water", caption: "Where the mountains meet the water" },
-    { image: "italy", caption: "A view worth lingering for" },
-    { image: "forest", caption: "Into the green" },
-    { image: "alpine", caption: "Somewhere still" },
-    { image: "details", caption: "Packed for somewhere new" },
-    { image: "lake", caption: "A morning to remember" }
+    { image: "mountain",  },
+    { image: "coast", },
+    { image: "water", },
+    { image: "italy",  },
+    { image: "forest", },
+    { image: "alpine",  },
+    { image: "details",  },
+    { image: "lake",  }
   ],
 
   // ========================================================================
@@ -258,17 +258,17 @@ const BLOG_CONTENT = {
   // ========================================================================
   about: {
     photo: "water",
-    smallHeading: "HELLO, FELLOW WANDERER",
-    title: "A curious soul with a love for",
-    titleAccent: "somewhere new.",
+    smallHeading: "WHO AM I?",
+    title: "Just a wandering soul. Also known as...",
+    titleAccent: "Caleb.",
     paragraphs: [
       "Welcome to The Wandering Soul. This is my own little corner for documenting the experiences that make life feel big—the unforgettable adventures and the quiet days alike.",
       "I've always loved the anticipation of a new place, the feeling of the road opening up, and the moments that find their way into your memory without you even noticing."
     ],
     quote: "For the love of adventure, in all its forms.",
     ending: "I'm glad you're here. I hope these pages remind you to stay curious, take the scenic route, and make room for a little more wonder.",
-    signature: "With love, The Wandering Soul ⌖"
-  },
+    signature: "That's all folks. Time for the road. From"
+  }, titleAccent: "The Wandering Soul ⌖ .",
 
   // ========================================================================
   // SECTION 11 — BOTTOM CONTACT PANEL
