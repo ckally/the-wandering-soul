@@ -250,7 +250,7 @@ function renderGallery() {
     </div>
   ` : `
     <div class="video-diary">
-      <div class="video-frame">${imageTag("sunset", "Open road at sunset")}<span class="play-emblem">▶</span></div>
+      <div class="video-frame">${imageTag("road", "Open road at sunset")}<span class="play-emblem">▶</span></div>
       <div class="video-copy">
         <span class="eyebrow">MOVING POSTCARDS</span>
         <h2>Moments in <em>motion.</em></h2>

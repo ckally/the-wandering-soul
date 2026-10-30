@@ -42,9 +42,7 @@ const BLOG_CONTENT = {
     water: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600&q=85",
     details: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1600&q=85",
     alpine: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=85",
-    hill: "hill.jpg",
-    sunset: "Road.png",
-    Caleb: "caleb.jpg"
+    hill: "hill.jpg"
   },
 
   // ========================================================================
@@ -260,7 +258,7 @@ const BLOG_CONTENT = {
   // SECTION 10 — ABOUT ME PAGE
   // ========================================================================
   about: {
-    photo: "Caleb",
+    photo: "water",
     smallHeading: "WHO AM I?",
     title: "My name is Caleb. Also known as...",
     titleAccent: "The Wandering Soul ⌖ .",
