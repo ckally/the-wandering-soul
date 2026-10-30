@@ -44,7 +44,8 @@ const BLOG_CONTENT = {
     alpine: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=85",
     hill: "hill.jpg",
     Caleb: "Caleb.jpg",
-    Roadtrip: "Road.png"
+    Roadtrip: "Road.png",
+    cars: "cars.jpg",
   },
 
   // ========================================================================
@@ -260,7 +261,7 @@ const BLOG_CONTENT = {
   // SECTION 10 — ABOUT ME PAGE
   // ========================================================================
   about: {
-    photo: "Caleb",
+    photo: "cars",
     smallHeading: "WHO AM I?",
     title: "My name is Caleb. Also known as...",
     titleAccent: "The Wandering Soul ⌖ .",
