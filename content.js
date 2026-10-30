@@ -42,7 +42,9 @@ const BLOG_CONTENT = {
     water: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600&q=85",
     details: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1600&q=85",
     alpine: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600&q=85",
-    hill: "hill.jpg"
+    hill: "hill.jpg",
+    Caleb: "caleb.jpg",
+    Roadtrip: "Road.png"
   },
 
   // ========================================================================

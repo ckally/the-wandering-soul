@@ -300,7 +300,7 @@ function renderMusic() {
           <span class="eyebrow"> Spotify</span>
           <h2>${escapeHTML(music.introTitle)} <em>${escapeHTML(music.introAccent)}</em></h2>
           <p>${escapeHTML(music.introText)}</p>
-          <div class="music-art">${imageTag("road", "Open road at golden hour")}<span><b>⌖</b></span></div>
+          <div class="music-art">${imageTag("Roadtrip", "Open road at golden hour")}<span><b>⌖</b></span></div>
         </div>
         <div class="tracklist">
           <div class="tracklist-title"><span class="eyebrow">Top 7 Songs</span><small>${String(music.songs.length).padStart(2, "0")} Roadtrip N Travels</small></div>
