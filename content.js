@@ -260,7 +260,7 @@ const BLOG_CONTENT = {
   // SECTION 10 — ABOUT ME PAGE
   // ========================================================================
   about: {
-    photo: "water",
+    photo: "Caleb",
     smallHeading: "WHO AM I?",
     title: "My name is Caleb. Also known as...",
     titleAccent: "The Wandering Soul ⌖ .",
