@@ -267,13 +267,13 @@ const BLOG_CONTENT = {
     titleAccent: "The Wandering Soul ⌖ .",
     paragraphs: [
       "Hello to those who are reading this. My name is Caleb. I grew up in a small town called Chilliwack in the province of British Columbia, Canada.",
-      "I have alot of passions like flying, music, photography, travelling, and more. Ive always wanted to see the world in it's entirety and all of the beauty it holds.",
-      "I am also a follower of Christ and try to live my life that like Jesus. Other general hobbies includes videogames like Destiny 2 and league of legends, Skiing, Golfing, yoyoing, and more I probably missed.",
-      "My goal in life is to live small. I want to effect people with kindness and help where I can. Kind of like one of my favorite fictional characters from the book series and movies. The lord of the rings. His name is Samwise Gamgee. He was a simple hobbit who lived a simple life, but he was always willing to help and be there for his friends. I want to be like that.",
-      "One of my favorite quotes is from a game I used to play called Minecraft. It goes like this: "
+      "I am currentyl training to be a pilot and have alot of passions like music, photography, travelling, yoyoing, vdeogames and more. Ive always wanted to see the world in it's entirety and all of the beauty it holds.",
+      "I am also a follower of Christ and try to live my life that like Jesus. That fact is kind of what runs how I live my life.",
+      "My goal in life is to live simply. I want to effect people with kindness and help where I can. Kind of like one of my favorite fictional characters from the book series and movies, The lord of the rings. Samwise Gamgee. He was a simple hobbit who lived a simple life, but he was always willing to help and be there for his friends. And when his friend Frodo fell down halfway up morder. He didn't just take the ring to carry it up. He carried Frodo to the very top. I want to be like that.",
+      "Like Sam. One of the quotes from him is this.",
     ],
-    quote: `"Twenty years from now, you will be more disappointed with the things you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbour. Catch the trade winds in your sails. Explore. Dream. Discover." - Unknown.`,
-    ending: "A great quote from a great game. Now of course there's more about me but I can't give it all away of course. So i'll leave that up to the stories from my advenures.",
+    quote: `"There's some good in this world, Mr. Frodo, and it's worth fighting for.`,
+    ending: "A simple but effective quote among many that gives me hope. That's it for now from me. Now of course there's more about me but I can't give it all away of course. So i'll leave that up to the stories from my advenures.",
     signature: "That's all folks. Time for the road. From Caleb, The Wandering Soul."
   },
 
