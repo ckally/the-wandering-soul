@@ -337,6 +337,8 @@ const BLOG_CONTENT = {
   // a direct .mp4 file path. The website builds the video player for you.
   // Example (remove the // from each line to activate it):
   // { title: "My First Road Trip", url: "https://www.youtube.com/watch?v=VIDEO_ID" },
+  // Set to true when you're ready to show the Videos tab publicly.
+  showVideos: false,
   videos: [
     // Add video entries here. An empty list shows "Coming Soon".
   ],

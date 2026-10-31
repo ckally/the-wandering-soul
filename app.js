@@ -225,7 +225,8 @@ function videoPlayer(video) {
 }
 
 function renderGallery() {
-  const photosActive = currentGalleryTab === "Photos";
+  const showVideos = content.showVideos === true;
+  const photosActive = !showVideos || currentGalleryTab === "Photos";
 
   const photoGrid = `
     <div class="gallery-grid">
@@ -263,10 +264,10 @@ function renderGallery() {
     ${pageHeader(content.pages.gallery)}
     <section class="section">
       <div class="container">
-        <div class="editorial-tabs" role="tablist" aria-label="Gallery media types">
+        ${showVideos ? `<div class="editorial-tabs" role="tablist" aria-label="Gallery media types">
           <button data-gallery-tab="Photos" role="tab" aria-selected="${photosActive}" class="${photosActive ? "active" : ""}">Photos</button>
           <button data-gallery-tab="Videos" role="tab" aria-selected="${!photosActive}" class="${!photosActive ? "active" : ""}">Videos</button>
-        </div>
+        </div>` : ""}
         ${photosActive ? photoGrid : videoGallery}
       </div>
     </section>
