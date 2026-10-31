@@ -217,7 +217,6 @@ const BLOG_CONTENT = {
     { image: "bridge.jpg", caption: "Sunset from the Bridge" },
     { image: "bridge2.jpg", caption: "A Walk Across the Suspension Bridge" },
     { image: "Caleb.jpg", caption: "A Flight with Caleb" },
-    { image: "caleb2.jpg", caption: "Flying Above the Mountains" },
     { image: "car.jpg", caption: "A Stop Along the Way" },
     { image: "cars.jpg", caption: "A Quiet Moment on the Car" },
     { image: "castle.jpg", caption: "A Day at the Castle" },
