@@ -230,9 +230,8 @@ function renderGallery() {
   const photoGrid = `
     <div class="gallery-grid">
       ${content.photos.map((photo, index) => `
-        <button class="photo-tile" data-photo-index="${index}" aria-label="Expand ${escapeHTML(photo.caption)}">
+        <button class="photo-tile" data-photo-index="${index}" aria-label="Open photo ${index + 1}">
           ${imageTag(photo.image, photo.caption)}
-          <span class="photo-caption">${escapeHTML(photo.caption)}</span>
         </button>
       `).join("")}
     </div>
@@ -399,7 +398,6 @@ function attachPageButtons() {
       const photo = content.photos[Number(button.dataset.photoIndex)];
       document.getElementById("lightboxImage").src = imageUrl(photo.image);
       document.getElementById("lightboxImage").alt = photo.caption;
-      document.getElementById("lightboxCaption").textContent = photo.caption;
       document.getElementById("lightbox").hidden = false;
       document.body.style.overflow = "hidden";
     });
