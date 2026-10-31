@@ -104,7 +104,7 @@ const BLOG_CONTENT = {
       description: "You never know where you might go if you just step out the door."
     },
     gallery: {
-      smallHeading: "Photos and Videos from the road",
+      smallHeading: "Photos from the road",
       title: "The",
       titleAccent: "Gallery.",
       description: "If these are just the moments captured, imagine all the moments that weren't."
