@@ -49,7 +49,7 @@ const BLOG_CONTENT = {
     caleb2: "caleb2.jpg",
     arizona3: "arizona3.jpg",
     salz2: "salz2.jpg",
-    kayak2: "kayak2.jpg"
+    kayak2: "kayak2.jpg",
     car2: "car2.jpg"
 
   },
@@ -87,10 +87,10 @@ const BLOG_CONTENT = {
   // The four picture links at the bottom of Home. Keep exactly four if you
   // want to preserve the current four-column design.
   homeCards: [
-    { title: "Travels", subtitle: "written from my travels", image: "arizona3", page: "travels" },
+    { title: "Travels", subtitle: "From the books to screens", image: "arizona3", page: "travels" },
     { title: "Oh, the Places You’ll Go", subtitle: "consider these for your next adventure", image: "salz2", page: "places" },
-    { title: "About Me", subtitle: "a little info about me", image: "car2", page: "about" },
-    { title: "Gallery", subtitle: "photos on the road", image: "kayak2", page: "gallery" }
+    { title: "Gallery", subtitle: "photos on the road", image: "kayak2", page: "gallery" },
+    { title: "About Me", subtitle: "a little info about me", image: "car2", page: "about" }
   ],
 
   // ========================================================================
