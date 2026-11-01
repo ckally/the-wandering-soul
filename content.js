@@ -46,7 +46,11 @@ const BLOG_CONTENT = {
     Caleb: "Caleb.jpg",
     Roadtrip: "Road.png",
     cars: "cars.jpg",
-    caleb2: "caleb2.jpg"
+    caleb2: "caleb2.jpg",
+    arizona3: "arizona3.jpg",
+    salz2: "salz2.jpg",
+    kayak2: "kayak2.jpg"
+    car2: "car2.jpg"
 
   },
 
@@ -85,7 +89,7 @@ const BLOG_CONTENT = {
   homeCards: [
     { title: "Travels", subtitle: "written from my travels", image: "arizona3", page: "travels" },
     { title: "Oh, the Places You’ll Go", subtitle: "consider these for your next adventure", image: "salz2", page: "places" },
-    { title: "About Me", subtitle: "a little info about me", image: "caleb2", page: "about" },
+    { title: "About Me", subtitle: "a little info about me", image: "car2", page: "about" },
     { title: "Gallery", subtitle: "photos on the road", image: "kayak2", page: "gallery" }
   ],
 
