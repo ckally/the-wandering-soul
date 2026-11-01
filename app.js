@@ -3,7 +3,7 @@
    ============================================================================
 
    Beginner tip: You normally DO NOT need to edit this file.
-   Edit content.js for journals, photos, videos, places, music and wording.
+   Edit content.js for journals, photos, places, music and wording.
    Edit settings.css for colours and typography.
 
    This file turns your content into the visible pages of the website.
@@ -173,102 +173,88 @@ function renderJournal(id) {
 // 4. OH, THE PLACES YOU'LL GO
 // --------------------------------------------------------------------------
 
-function renderPlaces() {
-  const cards = content.places.map((place, index) => `
-    <article class="destination-feature ${index % 2 ? "reverse" : ""}">
-      <div class="destination-photo">${imageTag(place.image, place.name)}</div>
-      <div class="destination-description">
-        <span class="eyebrow">${String(index + 1).padStart(2, "0")} / ${escapeHTML(place.label)}</span>
-        <h2>${escapeHTML(place.name)}</h2>
-        <p>${escapeHTML(place.description)}</p>
-        <a class="text-link" href="${escapeHTML(place.mapLink)}" target="_blank" rel="noopener">EXPLORE THE MAP <span>↗</span></a>
-      </div>
-    </article>
-  `).join("");
+function renderDestinationCards(destinations) {
+  return destinations.map((place, index) => {
+    const photos = place.photos || (place.image ? [place.image] : []);
+    const mapLinks = place.mapLinks || (place.mapLink ? [{ label: "EXPLORE THE MAP", url: place.mapLink }] : []);
 
+    return `
+      <article class="destination-feature ${index % 2 ? "reverse" : ""}">
+        <div class="destination-photo destination-photo-grid ${photos.length === 1 ? "single-photo" : ""}">
+          ${photos.map((photo, photoIndex) => imageTag(photo, `${place.name} photo ${photoIndex + 1}`)).join("")}
+        </div>
+        <div class="destination-description">
+          <span class="eyebrow">${String(index + 1).padStart(2, "0")} / ${escapeHTML(place.label)}</span>
+          <h2>${escapeHTML(place.name)}</h2>
+          <p>${escapeHTML(place.description)}</p>
+          ${mapLinks.length ? `<div class="destination-map-links">
+            ${mapLinks.map(map => `<a class="text-link" href="${escapeHTML(map.url)}" target="_blank" rel="noopener">${escapeHTML(map.label)} <span>↗</span></a>`).join("")}
+          </div>` : ""}
+        </div>
+      </article>
+    `;
+  }).join("");
+}
+
+function renderPlaces() {
   return `
     ${pageHeader(content.pages.places)}
     <section class="section">
       <div class="container">
-        <div class="destination-stack">${cards}</div>
+        <div class="destination-stack">${renderDestinationCards(content.places)}</div>
       </div>
     </section>
   `;
 }
 
-// --------------------------------------------------------------------------
-// 5. GALLERY: PHOTOS AND VIDEOS
-// --------------------------------------------------------------------------
+function renderBucketList() {
+  const destinations = content.bucketList;
+  const entries = destinations.length
+    ? `<div class="destination-stack">${renderDestinationCards(destinations)}</div>`
+    : `<div class="bucket-list-empty">
+        <span class="eyebrow">YOUR NEXT ADVENTURE</span>
+        <p>Your travel wish list starts here. Add the places you dream of visiting to the <code>bucketList</code> in content.js.</p>
+      </div>`;
 
-function videoPlayer(video) {
-  const url = video.url || "";
-
-  // YouTube: regular watch link, shortened youtu.be link or embed link.
-  const youtube = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
-  if (youtube) {
-    return `<iframe src="https://www.youtube-nocookie.com/embed/${youtube[1]}" title="${escapeHTML(video.title)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-  }
-
-  // Vimeo links are supported as well.
-  const vimeo = url.match(/vimeo\.com\/(?:video\/)?(\d+)/);
-  if (vimeo) {
-    return `<iframe src="https://player.vimeo.com/video/${vimeo[1]}" title="${escapeHTML(video.title)}" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>`;
-  }
-
-  // A local filename such as road-trip.mp4 loads from assets/gallery/.
-  if (/\.(mp4|webm|ogg)(\?.*)?$/i.test(url)) {
-    const videoSource = /^(https?:\/\/|\/|\.\/|\.\.\/|assets\/)/i.test(url) ? url : `assets/gallery/${url}`;
-    return `<video controls preload="metadata" ${video.poster ? `poster="${escapeHTML(imageUrl(video.poster))}"` : ""}><source src="${escapeHTML(videoSource)}">Your browser cannot play this video.</video>`;
-  }
-
-  return `<p class="video-help">Add a YouTube, Vimeo, or MP4 link to this video in content.js.</p>`;
+  return `
+    ${pageHeader(content.pages.next)}
+    <section class="section">
+      <div class="container">${entries}</div>
+    </section>
+  `;
 }
 
-function renderGallery() {
-  const showVideos = content.showVideos === true;
-  const photosActive = !showVideos || currentGalleryTab === "Photos";
+// --------------------------------------------------------------------------
+// 5. GALLERY: PHOTOS AND DIGI-CAMS
+// --------------------------------------------------------------------------
 
-  const photoGrid = `
+function renderGallery() {
+  const digiCamsActive = currentGalleryTab === "Digi-Cams";
+  const displayedPhotos = digiCamsActive ? content.digiPhotos : content.photos;
+
+  const photoGrid = displayedPhotos.length ? `
     <div class="gallery-grid">
-      ${content.photos.map((photo, index) => `
+      ${displayedPhotos.map((photo, index) => `
         <button class="photo-tile" data-photo-index="${index}" aria-label="Open photo ${index + 1}">
           ${imageTag(photo.image, photo.caption)}
         </button>
       `).join("")}
     </div>
-  `;
-
-  const videoGallery = content.videos.length ? `
-    <div class="video-gallery-grid">
-      ${content.videos.map(video => `
-        <article class="video-entry">
-          <div class="video-embed">${videoPlayer(video)}</div>
-          <h3>${escapeHTML(video.title)}</h3>
-          ${video.description ? `<p>${escapeHTML(video.description)}</p>` : ""}
-        </article>
-      `).join("")}
-    </div>
-  ` : `
-    <div class="video-diary">
-      <div class="video-frame">${imageTag("road", "Open road at sunset")}<span class="play-emblem">▶</span></div>
-      <div class="video-copy">
-        <span class="eyebrow">MOVING POSTCARDS</span>
-        <h2>Moments in <em>motion.</em></h2>
-        <p>A home for little travel films, road-trip clips, and moving memories. Add your first video in content.js.</p>
-        <span class="video-coming">VIDEO DIARY — COMING SOON</span>
-      </div>
-    </div>
-  `;
+  ` : `<p class="tab-description">${digiCamsActive ? "Add Digi-Cam photos in content.js, in the digiPhotos list." : "New photos coming soon."}</p>`;
 
   return `
     ${pageHeader(content.pages.gallery)}
     <section class="section">
       <div class="container">
-        ${showVideos ? `<div class="editorial-tabs" role="tablist" aria-label="Gallery media types">
-          <button data-gallery-tab="Photos" role="tab" aria-selected="${photosActive}" class="${photosActive ? "active" : ""}">Photos</button>
-          <button data-gallery-tab="Videos" role="tab" aria-selected="${!photosActive}" class="${!photosActive ? "active" : ""}">Videos</button>
+        <div class="editorial-tabs" role="tablist" aria-label="Gallery photo collections">
+          <button data-gallery-tab="Photos" role="tab" aria-selected="${!digiCamsActive}" class="${!digiCamsActive ? "active" : ""}">Photos</button>
+          <button data-gallery-tab="Digi-Cams" role="tab" aria-selected="${digiCamsActive}" class="${digiCamsActive ? "active" : ""}">Digi-Cams</button>
+        </div>
+        ${digiCamsActive ? `<div class="tab-description">
+          <span class="eyebrow">THE DIGI FILES</span>
+          <p>A separate collection of moments captured with a digital camera.</p>
         </div>` : ""}
-        ${photosActive ? photoGrid : videoGallery}
+        ${photoGrid}
       </div>
     </section>
   `;
@@ -355,6 +341,7 @@ function renderPage() {
     home: renderHome,
     travels: renderTravels,
     places: renderPlaces,
+    next: renderBucketList,
     gallery: renderGallery,
     music: renderMusic,
     about: renderAbout
@@ -396,7 +383,8 @@ function attachPageButtons() {
   // Clicking a photo opens it at a larger size.
   document.querySelectorAll("[data-photo-index]").forEach(button => {
     button.addEventListener("click", () => {
-      const photo = content.photos[Number(button.dataset.photoIndex)];
+      const photos = currentGalleryTab === "Digi-Cams" ? content.digiPhotos : content.photos;
+      const photo = photos[Number(button.dataset.photoIndex)];
       document.getElementById("lightboxImage").src = imageUrl(photo.image);
       document.getElementById("lightboxImage").alt = photo.caption;
       document.getElementById("lightbox").hidden = false;

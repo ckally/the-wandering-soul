@@ -8,8 +8,9 @@ This guide is written for someone who is new to coding. You can use **VS Code**,
 |---|---|
 | Add or edit a journal / daily story | **`content.js` → SECTION 5** |
 | Add or replace gallery photos | **`content.js` → SECTION 6** |
-| Add YouTube, Vimeo or MP4 videos | **`content.js` → SECTION 7** |
+| Add Digi-Cam photos to their own Gallery collection | **`content.js` → SECTION 7** |
 | Add favourite locations and map links | **`content.js` → SECTION 8** |
+| Add places to your travel bucket list | **`content.js` → `bucketList`** |
 | Change songs and Spotify playlist | **`content.js` → SECTION 9** |
 | Edit About Me | **`content.js` → SECTION 10** |
 | Change your email or contact wording | **`content.js` → SECTIONS 1 and 11** |
@@ -28,7 +29,7 @@ The `app.js` file displays the data. It's already commented, but you shouldn't n
 5. Save with **Ctrl+S** (Windows) or **Cmd+S** (Mac).
 6. Open `index.html` in a browser and refresh to see it.
 
-**Tip:** Use a Live Server extension in VS Code if your browser blocks local images or video previews. You can also open a terminal inside `dist` and run `python -m http.server 8000`, then visit `http://localhost:8000`.
+**Tip:** Use a Live Server extension in VS Code if your browser blocks local image previews. You can also open a terminal inside `dist` and run `python -m http.server 8000`, then visit `http://localhost:8000`.
 
 ## 3. Add a new journal entry
 
@@ -69,7 +70,7 @@ To remove a sample journal, delete that whole `{ ... }` object and keep the list
 
 ## 4. Add your own photos
 
-1. Open `dist/assets/gallery/`. This one folder holds both your photos and video files.
+1. Open `dist/assets/gallery/`.
 2. Copy your photo into that folder. Give it a simple name, e.g. `maui-sunset.jpg`.
 3. In `content.js` → `SECTION 6`, add a line to `photos: [ ... ]`:
 
@@ -85,25 +86,18 @@ To change one of the four homepage photos, edit the `image` value inside `homeCa
 
 **Photo tips:** Keep filenames short and consistent. `.jpg`, `.png`, and `.webp` work well. Compress large photos to keep the website fast; around 200–500 KB per photo is a useful starting target, though wide hero photos may need more.
 
-## 5. Add a video to Gallery → Videos
+## 5. Add photos to Gallery → Digi-Cams
 
-Find `SECTION 7 — GALLERY VIDEOS` in `content.js`. The list is empty by default. Add this inside `videos: [ ... ]`:
+The Gallery has a separate **Digi-Cams** tab, captioned **The Digi Files**, for digital-camera photos. Add each photo to the `digiPhotos: [ ... ]` list in `content.js` SECTION 7:
 
 ```js
 {
-  title: "Driving the Sea-to-Sky Highway",
-  url: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID",
-  description: "A few clips from the road."
+  image: "my-digi-cam-photo.jpg",
+  caption: "A moment from the road"
 },
 ```
 
-Replace `YOUR_VIDEO_ID` with the actual link from your YouTube video. Ordinary YouTube links, YouTube Shorts, Vimeo links, and direct `.mp4` video files are supported. For your own MP4, copy it into `dist/assets/gallery/` and use:
-
-```js
-{ title: "My Road Trip", url: "road-trip.mp4" },
-```
-
-Once at least one video exists, the Videos tab automatically switches from the "Coming Soon" message to video cards.
+Copy the image into `assets/gallery/` and use its filename. These photos appear only in Digi-Cams; the regular Gallery photos remain in the `photos` list in SECTION 6. Click a Digi-Cam image to open it full size, just like a regular Gallery photo.
 
 ## 6. Add a favourite location
 
@@ -113,15 +107,36 @@ Find `SECTION 8 — OH, THE PLACES YOU'LL GO`. Add a block like this to the `pla
 {
   name: "Kāʻanapali Beach",
   label: "SUNSET FAVOURITE",
-  image: "kaanapali.jpg",
+  photos: ["kaanapali.jpg", "kaanapali-sunset.jpg"],
   description: "My favourite spot for an evening walk by the ocean.",
-  mapLink: "https://www.google.com/maps/search/?api=1&query=Kaanapali+Beach"
+  mapLinks: [
+    { label: "BEACH", url: "https://www.google.com/maps/search/?api=1&query=Kaanapali+Beach" },
+    { label: "TOWN", url: "https://www.google.com/maps/search/?api=1&query=Kaanapali+Hawaii" }
+  ]
 },
 ```
 
-The page automatically makes another place card; no extra HTML is required.
+Copy each photo into `assets/gallery/` and use its filename. Add as many photos and map links as you like. Each destination can also use its original `image` and `mapLink` fields if it only has one photo and one map link.
 
-## 7. Add a song or change the Spotify playlist
+## 7. Add a place to “Where to Next?”
+
+The **Where to Next?** page is your personal travel bucket list. In `content.js`, add entries to the `bucketList: [ ... ]` list:
+
+```js
+{
+  name: "A place I hope to visit",
+  label: "SOMEDAY SOON",
+  photos: ["destination.jpg"],
+  description: "What makes me want to go.",
+  mapLinks: [
+    { label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=destination" }
+  ]
+},
+```
+
+Add your photos to `assets/gallery/` first. You can include multiple photos and map links just like the destinations in SECTION 8. The list starts empty so you can fill it with places you actually want to visit.
+
+## 8. Add a song or change the Spotify playlist
 
 Find `SECTION 9 — MUSIC` in `content.js`.
 

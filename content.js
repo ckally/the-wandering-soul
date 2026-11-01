@@ -7,8 +7,8 @@
    1. Change text between quotation marks to update the website.
    2. Add new items by copying an existing { ... } block.
    3. Keep commas between items in a list.
-   4. Put your own pictures and videos in assets/gallery/.
-      Then use only their filename: "my-maui-sunset.jpg" or "road-trip.mp4".
+   4. Put your own photos in assets/gallery/.
+      Then use only the filename, such as "my-maui-sunset.jpg".
    5. Save this file, then refresh index.html in your browser.
 
    IMPORTANT: Keep the outside structure `const BLOG_CONTENT = { ... };` intact.
@@ -45,7 +45,9 @@ const BLOG_CONTENT = {
     hill: "hill.jpg",
     Caleb: "Caleb.jpg",
     Roadtrip: "Road.png",
-    cars: "cars.jpg"
+    cars: "cars.jpg",
+    caleb2: "caleb2.jpg"
+
   },
 
   // ========================================================================
@@ -58,11 +60,11 @@ const BLOG_CONTENT = {
     lead: `Is it doing something you've never done before? Does it require you to travel a certain distance? Or maybe you need to spend just enough money for it to be considered so.`,
     paragraphs: [
       `I tell you truth. Adventure, or more importantly the pursuit of such, is more of a state of mind. An allowance for chaos and the ability to adapt. Adventure is seeking discovery and experience while paying the price of comfort and convenience.`,
-      `The road of adventure however, is not so straight and traught. Rather the opposite. The road of adventure often displays signs of decay. It has many potholes, and turns and is often the least traughten path of them all. But that! That, is the key of adventure. Taking the path that most scares you for the purpose of experience, building of character, wisdom, and for the tales and stories that will be told for millenia.`,
-      `And it's different for everyone, of what that adventure is. To some, it's skydiving, to others it going on a plane, or even leaving the country. The easiest way to tell if an adventure is worth doing, is to ask your self this question.`,
+      `The road of adventure is NOT so straight and traught. Rather the opposite. The road of adventure often displays signs of decay. It has many potholes, and turns and is often the least traughten path of them all. But that! That, is the key of adventure. Taking the path that most scares you for the purpose of experience, building of character, wisdom, and for the tales and stories that will be told for millenia.`,
+      `Not sure if your up for it? If your on the fence ask yourself this one question.`,
       `"If I don't do this, will I regret it?". It's that simple.`,
       `The world is filled with people who are too afraid to make the first step and regret it in their days of old. Don't be like those people. Be you. Be an Adventurer, an explorer, a Wandering Soul, if you will.`,
-      `Look. If were being honest, I am like those people of whom I speak of.`,
+      `Look. If I'm being honest, I am like those people of whom I speak of.`,
       `Scared.`,
       `Afraid.`,
       `Nervous.`,
@@ -81,10 +83,10 @@ const BLOG_CONTENT = {
   // The four picture links at the bottom of Home. Keep exactly four if you
   // want to preserve the current four-column design.
   homeCards: [
-    { title: "Travels", subtitle: "The stories along the way", image: "hill", page: "travels" },
-    { title: "Oh, the Places You’ll Go", subtitle: "Places that stay with me", image: "coast", page: "places" },
-    { title: "About Me", subtitle: "The soul behind the stories", image: "lake", page: "about" },
-    { title: "Gallery", subtitle: "Little moments in frames", image: "mountain", page: "gallery" }
+    { title: "Travels", subtitle: "written from my travels", image: "arizona3", page: "travels" },
+    { title: "Oh, the Places You’ll Go", subtitle: "consider these for your next adventure", image: "salz2", page: "places" },
+    { title: "About Me", subtitle: "a little info about me", image: "caleb2", page: "about" },
+    { title: "Gallery", subtitle: "photos on the road", image: "kayak2", page: "gallery" }
   ],
 
   // ========================================================================
@@ -102,6 +104,12 @@ const BLOG_CONTENT = {
       title: "Oh, the Places",
       titleAccent: "You’ll Go.",
       description: "You never know where you might go if you just step out the door."
+    },
+    next: {
+      smallHeading: "The Bucket List",
+      title: "Where to",
+      titleAccent: "Next?",
+      description: "Places and adventure's yet to happen."
     },
     gallery: {
       smallHeading: "Photos from the road",
@@ -330,16 +338,12 @@ const BLOG_CONTENT = {
   ],
 
   // ========================================================================
-  // SECTION 7 — GALLERY VIDEOS
+  // SECTION 7 — DIGI-CAM PHOTOS (THE DIGI FILES)
   // ========================================================================
-  // Paste a normal YouTube link, a YouTube embed link, a Vimeo link, or
-  // a direct .mp4 file path. The website builds the video player for you.
-  // Example (remove the // from each line to activate it):
-  // { title: "My First Road Trip", url: "https://www.youtube.com/watch?v=VIDEO_ID" },
-  // Set to true when you're ready to show the Videos tab publicly.
-  showVideos: false,
-  videos: [
-    // Add video entries here. An empty list shows "Coming Soon".
+  // Add photos here to show them in Gallery > Digi-Cams, separately from
+  // the regular Gallery > Photos. Use filenames from assets/gallery/.
+  digiPhotos: [
+    // { image: "my-digi-cam-photo.jpg", caption: "A moment from the road" },
   ],
 
   // ========================================================================
@@ -349,6 +353,10 @@ const BLOG_CONTENT = {
     { name: "The Mountains", label: "FOR THE WILD AT HEART", image: "mountain", description: "For crisp morning air, winding trails, and the kind of views that make everything else go quiet.", mapLink: "https://www.google.com/maps/search/?api=1&query=mountain+destinations" },
     { name: "By the Sea", label: "FOR THE SLOW AFTERNOONS", image: "coast", description: "For salty hair, long lunches, little coastal streets, and sunsets you wish could last forever.", mapLink: "https://www.google.com/maps/search/?api=1&query=coastal+destinations" },
     { name: "Lakeside", label: "FOR THE PEACEFUL MOMENTS", image: "alpine", description: "For still water, good books, an open view, and the simple pleasure of doing nothing at all.", mapLink: "https://www.google.com/maps/search/?api=1&query=beautiful+lakes" }
+  ],
+  // Add places you personally hope to visit. Entries use the same format as `places`.
+  bucketList: [
+    // { name: "A place to visit", label: "SOMEDAY SOON", photos: ["destination.jpg"], description: "Why I want to go.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=destination" }] },
   ],
 
   // ========================================================================
@@ -385,11 +393,11 @@ const BLOG_CONTENT = {
       "Hello to those who are reading this. My name is Caleb. I grew up in a small town called Chilliwack in the province of British Columbia, Canada.",
       "I am currently training to be a pilot and have alot of passions like music, photography, travelling, yoyoing, vdeogames and more. Ive always wanted to see the world in it's entirety and all of the beauty it holds and document my findings.",
       "I am also a follower of Christ and try to live my life that like Jesus. That fact is kind of what runs how I live my life.",
-      "My goal in life is to live simply. I want to effect people with kindness and help where I can. Kind of like one of my favorite fictional characters from the book series and movies, The lord of the rings. Samwise Gamgee. He was a simple hobbit who lived a simple life, but he was always willing to help and be there for his friends. And when his friend Frodo fell down halfway up morder. He didn't just take the ring to carry it up. He carried Frodo to the very top. I want to be like that.",
-      "Like Sam. One of the quotes from him is this.",
+      "My goal in life is to live simply. I want to effect people with kindness and help where I can. Kind of like one of my favorite fictional characters from the book and movie series, The lord of the rings. Samwise Gamgee. He was always a bit shy and was clumsy at times, but he was always kind and always willing to help and be there for his friends. And when his friend Frodo fell down halfway up morder, he didn't just give up. He carried Frodo and the ring to the peak of the mountain to save middle earth. I want to be like that.",
+      "Like Sam.",
     ],
-    quote: `"There's some good in this world, Mr. Frodo, and it's worth fighting for.`,
-    ending: "A simple but effective quote among many that gives me hope. That's it for now from me. Now of course there's more about me but I can't give it all away of course. So i'll leave that up to the stories from my advenures to tell the rest.",
+    quote: `"There's some good in this world, Mr. Frodo, and it's worth fighting for." - Samwise Gamgee`,
+    ending: "Well, that's it for now from me. Now of course there's more about me but I can't give it all away of course. So i'll leave that up to the stories from my advenures to tell the rest.",
     signature: "That's all folks. Time for the road. From Caleb, The Wandering Soul."
   },
 
