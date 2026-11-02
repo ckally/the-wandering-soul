@@ -101,7 +101,7 @@ const BLOG_CONTENT = {
       smallHeading: "FROM PAPER TO PAGES",
       title: "Caleb's",
       titleAccent: "Journal.",
-      description: "Stories long and short from 2024 and beyond."
+      description: "Stories long and short from my last year of highschool (Class of 2024) and BEYOND!."
     },
     places: {
       smallHeading: "Ideas for your next adventure",
