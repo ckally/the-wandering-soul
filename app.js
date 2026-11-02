@@ -47,7 +47,7 @@ function contactLink() {
   return `mailto:${content.site.email.trim()}?subject=Hello%20from%20The%20Wandering%20Soul`;
 }
 
-function pageHeader(page, journal = false) {
+function pageHeader(page, journal = false, design = "") {
   return `
     <header class="page-hero interior-hero ${journal ? "journal-hero" : ""}">
       <div class="container">
@@ -56,6 +56,7 @@ function pageHeader(page, journal = false) {
         <p>${escapeHTML(page.description)}</p>
       </div>
       <span class="decor" aria-hidden="true"></span>
+      ${design ? `<span class="section-decor section-decor-${escapeHTML(design)}" aria-hidden="true"></span>` : ""}
     </header>
   `;
 }
@@ -198,7 +199,7 @@ function renderDestinationCards(destinations) {
 
 function renderPlaces() {
   return `
-    ${pageHeader(content.pages.places)}
+    ${pageHeader(content.pages.places, false, "marker")}
     <section class="section">
       <div class="container">
         <div class="destination-stack">${renderDestinationCards(content.places)}</div>
@@ -217,7 +218,7 @@ function renderBucketList() {
       </div>`;
 
   return `
-    ${pageHeader(content.pages.next)}
+    ${pageHeader(content.pages.next, false, "map")}
     <section class="section">
       <div class="container">${entries}</div>
     </section>
@@ -243,7 +244,7 @@ function renderGallery() {
   ` : `<p class="tab-description">${digiCamsActive ? "Add Digi-Cam photos in content.js, in the digiPhotos list." : "New photos coming soon."}</p>`;
 
   return `
-    ${pageHeader(content.pages.gallery)}
+    ${pageHeader(content.pages.gallery, false, "camera")}
     <section class="section">
       <div class="container">
         <div class="editorial-tabs" role="tablist" aria-label="Gallery photo collections">
@@ -252,7 +253,7 @@ function renderGallery() {
         </div>
         ${digiCamsActive ? `<div class="tab-description">
           <span class="eyebrow">THE DIGI FILES</span>
-          <p>A separate collection of moments captured with a digital camera.</p>
+          <p>Photos taken with my digital camera.</p>
         </div>` : ""}
         ${photoGrid}
       </div>
@@ -279,7 +280,7 @@ function renderMusic() {
   `).join("");
 
   return `
-    ${pageHeader(content.pages.music)}
+    ${pageHeader(content.pages.music, false, "music")}
     <section class="section">
       <div class="container music-layout">
         <div class="music-intro">
@@ -311,7 +312,7 @@ function renderMusic() {
 function renderAbout() {
   const about = content.about;
   return `
-    ${pageHeader(content.pages.about)}
+    ${pageHeader(content.pages.about, false, "cross")}
     <section class="section">
       <div class="container about-layout">
         <div>${imageTag(about.photo, "A photograph from my travels")}</div>
