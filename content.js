@@ -64,7 +64,7 @@ const BLOG_CONTENT = {
     lead: `Is it doing something you've never done before? Does it require you to travel a certain distance? Or maybe you need to spend just enough money for it to be considered so.`,
     paragraphs: [
       `I tell you truth. Adventure, or more importantly the pursuit of such, is more of a state of mind. An allowance for chaos and the ability to adapt. Adventure is seeking discovery and experience while paying the price of comfort and convenience.`,
-      `The road of adventure is NOT so straight and traught. Rather the opposite. The road of adventure often displays signs of decay. It has many potholes, and turns and is often the least traughten path of them all. But that! That, is the key of adventure. Taking the path that most scares and exites you for the purpose of experience, building of character, wisdom, and for the tales and stories that will be told for millenia.`,
+      `The road of adventure is NOT so straight and traught. Rather the opposite. The road of adventure often displays signs of decay. It has many potholes, and turns and is often the least traughten path of them all. But that! That, is the key of adventure. Taking the path that most scares and excites you for the purpose of experience, building of character, wisdom, and for the tales and stories that will be told for millenia.`,
       `Not sure if your up for it? If your on the fence ask yourself this one question.`,
       `"If I don't do this, will I regret it?". It's that simple.`,
       `The world is filled with people who are too afraid to make the first step and regret it in their days of old. Don't be like those people. Be you. Be an Adventurer, an explorer, a Wandering Soul, if you will.`,
@@ -332,8 +332,23 @@ const BLOG_CONTENT = {
   // Add photos here to show them in Gallery > Digi-Cams, separately from
   // the regular Gallery > Photos. Use filenames from assets/gallery/.
   digiPhotos: [
-    // { image: "my-digi-cam-photo.jpg", caption: "A moment from the road" },
+    { image: "D1.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D2.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D3.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D4.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D5.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D6.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D7.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D8.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D9.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D10.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D11.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D12.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D13.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D14.JPG", caption: "A Zipline Adventure with Friends" },
+    { image: "D15.JPG", caption: "A Zipline Adventure with Friends" }
   ],
+
 
   // ========================================================================
   // SECTION 8 — OH, THE PLACES YOU'LL GO
