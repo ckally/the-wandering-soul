@@ -338,7 +338,8 @@ const BLOG_CONTENT = {
     { image: "wistler.jpg", caption: "A Forest Walk in Whistler" },
     { image: "wistler2.jpg", caption: "An Evening in Whistler" },
     { image: "worldcup.jpg", caption: "Vancouver's Waterfront on Game Day" },
-    { image: "zip.png", caption: "A Zipline Adventure with Friends" }
+    { image: "zip.png", caption: "A Zipline Adventure with Friends" },
+    { image: "whist.png", caption: "A Zipline Adventure with Friends" }
   ],
 
   // ========================================================================
