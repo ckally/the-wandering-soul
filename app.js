@@ -152,23 +152,40 @@ function renderTravels() {
 }
 
 function renderJournalParagraph(paragraph, journal) {
-  if (typeof paragraph === "string" || !paragraph.image) {
-    const text = typeof paragraph === "string" ? paragraph : paragraph.text;
-    return `<p>${escapeHTML(text)}</p>`;
-  }
+  const text = typeof paragraph === "string" ? paragraph : paragraph.text;
+  const renderedText = renderJournalText(text, typeof paragraph === "string" ? [] : paragraph.links);
+
+  if (typeof paragraph === "string" || !paragraph.image) return `<p>${renderedText}</p>`;
 
   const photoSide = paragraph.imageSide === "left" ? "left" : "right";
   const caption = paragraph.caption || "";
 
   return `
     <div class="article-paragraph-with-photo article-paragraph-photo-${photoSide}">
-      <p>${escapeHTML(paragraph.text)}</p>
+      <p>${renderedText}</p>
       <figure class="article-inline-photo">
         ${imageTag(paragraph.image, caption || `${journal.title} photograph`)}
         ${caption ? `<figcaption>${escapeHTML(caption)}</figcaption>` : ""}
       </figure>
     </div>
   `;
+}
+
+function renderJournalText(text, links = []) {
+  const validLinks = links.filter(link => /^https?:\/\//i.test(link.url));
+  let html = "";
+  let cursor = 0;
+
+  validLinks.forEach(link => {
+    const index = text.indexOf(link.text, cursor);
+    if (index === -1) return;
+
+    html += escapeHTML(text.slice(cursor, index));
+    html += `<a href="${escapeHTML(link.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(link.text)}</a>`;
+    cursor = index + link.text.length;
+  });
+
+  return html + escapeHTML(text.slice(cursor));
 }
 
 // When a journal card is clicked, it opens its complete entry.

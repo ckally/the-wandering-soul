@@ -145,6 +145,7 @@ const BLOG_CONTENT = {
   //   - Put each paragraph in its own line inside paragraphs: [ ... ].
   //   - image can be an image shortcut (like "coast") or your photo path.
   //   - To place a photo beside a paragraph, use { text, image, caption, imageSide }.
+  //   - To hyperlink words, add links: [{ text, url }] to a paragraph object.
   journals: [
     {
       id: "the-in-between",
@@ -220,7 +221,10 @@ const BLOG_CONTENT = {
 {
   text: "That day we set out for a very popular location known as Lake Louise. Something to note is that Lake Louise is a glacier lake. A glacier lake is formed when a moving glacier impacts the grounds in a way where it leaves a hole behind it. This hole is then filled with the melt of the glacier leaving behind a lake. ", 
   image: "louise.png",
-  imageSide: "left"
+  imageSide: "left",
+  links: [
+    { text: "Lake Louise", url: "https://www.banfflakelouise.com/experiences/lake-louise" }
+  ]
 },
  "Now I'm not a geologist nor am I super knowledgeable on glaciers, but this description gives you an idea of not only the scale of the lake but the temperature of the water. Frigid. Now we didn't actually go ON the water, but I could only imagine how it felt to go in. We went to the edge of the lake where we could take a photo of it and go for lunch at this place next to Walliser Stube. Alot less fancy than the Walliser Stube, it was pretty much a corner store like place with sandwiches. We bought a few and headed outside to eat by the lake. ", 
 
@@ -231,18 +235,31 @@ const BLOG_CONTENT = {
  "Fast forward to lunch time of the second day we had a combination of hotdogs, apples, bean, and oh ya the have sweat and sour pork, I remember I bought. So I decided to cook and heat it up on the grill. While we were cooking the food I got distracted doing something and forgot my pork was cooking. Luckily my mom found it and told me it was burning. I opened the grill and it was only burnt a little bit. Phef! My food was okay. I then plated it and sat down to eat and took my first bite. Now I don't know whether it was the fact that it was already cooked 2 days ago and I was re cooking it, or that it was sitting in the truck for 5 hours, or that I burned it, or a combination of all 3 but whatever the case, it was TERRIBLE. It tasted like burnt toe with a hint of pork. Anyways I ended up eating most of it.", 
 
  " Looking back now I can't remember exactly why I ate most of it but this one decision would later haunt me as that night was spend between my bedside with the feeling of a bomb in my stomach, and the outhouse with me igniting said bomb and dropping it on Hiroshima, or in my case the sewage catch. It was a horrible experience but one I won't ever forget. Especially not now since I've documented it.", 
-
- "Next morning I surprisingly felt way better. The war was finally over. That morning was spent not in my bed but setting out to for a hike that was pretty difficult around Picklejar lake. Another really cool lake, not as blue but the hike made up for it as the challenge it took to get there made it worth it. You had to essentially hike down a steep face to get down to the lake and hike up the way out. The way out was much harder but to the surprise of myself and my mom was my, at the time 57-year-old dad; I kid you not running up the steep zig zag trail. I guess all that trail running really paid off. ", 
-
+{
+  text: "Next morning I surprisingly felt way better. The war was finally over. That morning was spent not in my bed but setting out to for a hike that was pretty difficult around Picklejar lake. Another really cool lake, not as blue but the hike made up for it as the challenge it took to get there made it worth it. You had to essentially hike down a steep face to get down to the lake and hike up the way out. The way out was much harder but to the surprise of myself and my mom was my, at the time 57-year-old dad; I kid you not running up the steep zig zag trail. I guess all that trail running really paid off. ", 
+  links: [
+    { text: "Picklejar Lake", url: "https://hikebiketravel.com/the-pickle-jar-lakes-hike-in-kananaskis-country/" }
+  ]
+},
  " The funny part is he had a bell attached to his bag which he said had something about bear protection but seems to me like he just attached a beer signal to his bag that told every bear in the area exactly where dinner would be. Anyways, it was funny because as he ran up it jingled in a way that made him sound like Rudolph running which had me and my mom giggling.", 
 
  " Apon reaching the peak again, which is where we started, we headed for the car and planned to head into town for dinner. The town of banff was a very cozy looking town with sleepy town vibes but in a good way. It has a certain charm to it. Unfortunately, I can't remember where we stopped for dinner, but it was probably pretty good.", 
-
+{
+  text: " The next stop on our list that day was a place called Mistya Canyon. Now this place was very interesting to say the least. Incredible rock formations, with fast flowing water flowing through, endless trails around to see the area in every which way, and unpredictable terrain that climbed and descended as it pleased. A very cool spot. Definitely worth the stop if your in the area. Soon after the sun started to fall ahead the earth and we headed back to our campsite.", 
+  image: "alber.jpg",
+  imageSide: "right",
+  links: [ 
+    { text: "Mistaya Canyon", url: "https://www.banfflakelouise.com/experiences/mistaya-canyon" }
+  ]
+},
  "That night we ended up watching Starwars: The Empire Strikes Back. Classic, once again. Unfortunately for us it was our last day in Banff but NOT the last day of our trip. ",  
 {
   text: "On our way back home we stayed at this cabin located near Enderby, BC. Another small town of many in British Columbia. Here we spend a few more days in the back country enjoying the sun, floating around at the Enderby river float, which is a slow river many people tube down.",  
   image: "wayback.jpg",
-  imageSide: "right"
+  imageSide: "left",
+  links: [ 
+    { text: "Enderby River Float", url: "https://explorethemap.com/enderby-river-float/" }
+  ]
 },
 " Now, Ive done it before and it's definitely worth it, but this time we just went to where people finish the float and swam around there for an evening. We finished the day with ice cream from a local parlour and ordered takeout pizza to bring back to our cabin. The movie of the night or show rather, was one we watch on the regular. It's Called 'Last Man Standing', and it's definitely worth the watch. The next morning we set out for the road and finally arrived home.",  
 

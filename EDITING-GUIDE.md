@@ -55,7 +55,10 @@ Here is a fresh example:
       text: "This paragraph will appear beside a photo.",
       image: "maui-sunset.jpg",
       caption: "Sunset in Maui",
-      imageSide: "right"
+      imageSide: "right",
+      links: [
+        { text: "Maui", url: "https://en.wikipedia.org/wiki/Maui" }
+      ]
     },
     "And a third paragraph with another memory."
   ],
@@ -69,6 +72,7 @@ Important things to remember:
 - `section` must say **`"On the Road"`** or **`"The Day to Day"`** exactly.
 - `image` can be a filename in `assets/gallery/` (for example `"maui-beach.jpg"`) or an image shortcut such as `"coast"`.
 - Each item in `paragraphs` can be a text string, or an object with `text` and `image` to display a photo beside that paragraph. Add an optional `caption`; set `imageSide` to `"left"` or `"right"` (it defaults to the right). On small screens, the photo stacks below its text.
+- To make a word or phrase in a paragraph object clickable, add `links: [{ text: "Maui", url: "https://example.com" }]`. The `text` must appear in that paragraph; the first matching occurrence becomes a link and opens in a new tab. Add more objects to `links` for more linked words or phrases.
 - A comma belongs between journal blocks. You can leave a comma after the last item, too.
 - Do not remove the opening and closing square brackets around the full list.
 
