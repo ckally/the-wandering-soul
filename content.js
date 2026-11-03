@@ -63,21 +63,35 @@ const BLOG_CONTENT = {
     titleAccent: "adventure?",
     lead: `Is it doing something you've never done before? Does it require you to travel a certain distance? Or maybe you need to spend just enough money for it to be considered so.`,
     paragraphs: [
-      `I tell you truth. Adventure, or more importantly the pursuit of such, is more of a state of mind. An allowance for chaos and the ability to adapt. Adventure is seeking discovery and experience while paying the price of comfort and convenience.`,
-      `The road of adventure is NOT so straight and traught. Rather the opposite. The road of adventure often displays signs of decay. It has many potholes, and turns and is often the least traughten path of them all. But that! That, is the key of adventure. Taking the path that most scares and excites you for the purpose of experience, building of character, wisdom, and for the tales and stories that will be told for millenia.`,
-      `Not sure if your up for it? If your on the fence ask yourself this one question.`,
-      `"If I don't do this, will I regret it?". It's that simple.`,
-      `The world is filled with people who are too afraid to make the first step and regret it in their days of old. Don't be like those people. Be you. Be an Adventurer, an explorer, a Wandering Soul, if you will.`,
-      `Look. If I'm being honest, I am like those people of whom I speak of.`,
-      `Scared.`,
-      `Afraid.`,
-      `Nervous.`,
-      `Wondering if I should or shouldn't do something simply because it scares me. But I am always reminded of the quote that was written, and placed in the end credits of one of the most adventurous and influential game of all time. Minecraft. And it goes like this...`,
-      `"Twenty years from now, you will be more disappointed with the things you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbour. Catch the trade winds in your sails. Explore. Dream. Discover." - Unknown.`,
-      `This will now, and will always be one of the quotes I live my life by, and I hope you do the same.`,
-      `The path of Adventure or more importantly, the mindset of such, will allow you to experience life in a way you never done thus far. See things you never thought you'd see, and do the things you never thought you'd do.`,
-      `So. Enjoy the tales and Memoirs of The Wandering Soul. May they inspire you to one day set out for a grand adventure of your own. I wish you all the best of luck. May your sails be filled, your paths windy, and your books chock full of the stories, tales, and memoirs of the life you lived along the roads of Adventure...`
-    ],
+     `I tell you truth. Adventure, or more importantly the pursuit of such, is more of a state of mind. An allowance for chaos and the ability to adapt. Adventure is seeking discovery and experience while paying the price of comfort and convenience. `, 
+
+      `The road of adventure is NOT so straight and travelled. Rather than the opposite. The road of adventure often displays signs of decay. It has many potholes and turns and is often the least travelled path of them all. But that! That, is the key of adventure. Taking the path that most scares and excites you for the purpose of experience, building character, wisdom, and for the tales and stories that will be told for millennia. `, 
+
+      `Not sure if you're up for it? If you're on the fence, ask yourself this one question. `, 
+
+      `"If I don't do this, will I regret it?". It's that simple. `, 
+
+      `The world is filled with people who are too afraid to take the first step and regret it in their days of old. Don't be like those people. Be you. Be an Adventurer, an explorer, a Wandering Soul, if you will. `, 
+
+      `Look. If I'm being honest, I am like those people whom I speak of.`, 
+
+      `Scared. `, 
+
+      `Afraid. `, 
+
+      `Nervous. `, 
+
+      `Wondering if I should or shouldn't do something simply because it scares me. But I am always reminded of the quote that was written and placed in the end credits of one of the most adventurous and influential games of all time. Minecraft. And it goes like this...`, 
+
+      `"Twenty years from now, you will be more disappointed with the things you didn't do than by the ones you did do. So, throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover." - Unknown. `, 
+
+      `This will now and will always be one of the quotes I live my life by, and I hope you do the same. `, 
+
+      `The path of Adventure or more importantly, the mindset of such, will allow you to experience life in a way you have never done thus far. See things you never thought you'd see and do the things you never thought you'd do. `, 
+
+      `So. Enjoy the tales and Memoirs of The Wandering Soul. May they inspire you to one day set out for a grand adventure of your own. I wish you all the best of luck. May your sails be filled, your paths windy, and your books chock full of the stories, tales, and memoirs of the life you lived along the roads of Adventure...` 
+
+    ], 
     signoff: "Ill see you out there!.",
     bottomCaption: "thewanderingsoul",
     photoLinksHeading: "More from",
@@ -236,7 +250,7 @@ const BLOG_CONTENT = {
 
  "After that we headed back home for some lunch. A little backstory before I move on, is that on the way to our campsite we stopped at a little grocery store to pick up supplies and food for our trip. We got the usuals like hot dogs, buns, eggs, bacon, etc. As we were about the leave the store I found premade, and warm sweet and sour pork. I decided to get some for our trip and heat it up later. ", 
 
- "Fast forward to lunch time of the second day we had a combination of hotdogs, apples, bean, and oh ya the have sweat and sour pork, I remember I bought. So I decided to cook and heat it up on the grill. While we were cooking the food I got distracted doing something and forgot my pork was cooking. Luckily my mom found it and told me it was burning. I opened the grill and it was only burnt a little bit. Phef! My food was okay. I then plated it and sat down to eat and took my first bite. Now I don't know whether it was the fact that it was already cooked 2 days ago and I was re cooking it, or that it was sitting in the truck for 5 hours, or that I burned it, or a combination of all 3 but whatever the case, it was TERRIBLE. It tasted like burnt toe with a hint of pork. Anyways I ended up eating most of it.", 
+ "Fast forward to lunch time of the second day we had a combination of hotdogs, apples, bean, and oh ya the have sweat and sour pork, I remember I bought. So I decided to cook and heat it up on the grill. While we were cooking the food I got distracted doing something and forgot my pork was cooking. Luckily my mom found it and told me it was burning. I opened the grill and it was only burnt a little bit. Phewf! My food was okay. I then plated it and sat down to eat and took my first bite. Now I don't know whether it was the fact that it was already cooked 2 days ago and I was re cooking it, or that it was sitting in the truck for 5 hours, or that I burned it, or a combination of all 3 but whatever the case, it was TERRIBLE. It tasted like burnt toe with a hint of pork. Anyways I ended up eating most of it.", 
 
  " Looking back now I can't remember exactly why I ate most of it but this one decision would later haunt me as that night was spend between my bedside with the feeling of a bomb in my stomach, and the outhouse with me igniting said bomb and dropping it on Hiroshima, or in my case the sewage catch. It was a horrible experience but one I won't ever forget. Especially not now since I've documented it.", 
 {
