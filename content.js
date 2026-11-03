@@ -201,21 +201,27 @@ const BLOG_CONTENT = {
 "The mountains here belong to a 3000-mile stretch of mountains called 'The Rockies'. These mountains happen to be MUCH bigger than the ones I live by. The faces are much more raw, with extreme changes in elevation and unique patterns. Just looking at them makes you feel like an ant by a hill. ", 
 
 "After about 6 hours we got to the site where we picked up a trailer and continued the journey to our destination. Banff, Alberta, and my goodness was it cool. Away from cities, away from sirens, away from distractions, the silence was loud. That was the first thing I noticed when we arrived. Among other things, the beauty of it all took my breath away as we set everything up at our site which was located in the middle of the valley. ", 
-
-"Our first day was spent getting there, setting up, and having a little dinner by the fire we made. Thankfully, the fire ban was lifted at this point.", 
-
+{
+  text: "Our first day was spent getting there, setting up, and having a little dinner by the fire we made. Thankfully, the fire ban was lifted at this point.", 
+  image: "Camp.png",
+  imageSide: "left"
+},
  "The second day we explored around our site. We found a nice creek only a few minutes away and decided to take a little dip. At that time, it was about mid-day so it was pretty hot. The same could not be said for the water. Shimmering, clear water looked VERY appealing at the time until we were in it. Shivering I was as I walked around in the shallow creek. The most I could do was lay down to be fully submerged, which is what I ended up doing as the cold was a better alternative to the heat; I was feeling prior.", 
 
 "Once we felt our fingers and toes would fall off if we stayed any longer, we headed back to the camper for lunch. Hot dogs and beans it was for that day. A camping meal classic for sure. The rest of the day was spent mainly relaxing as the day before was pretty tiring, especially for my dad who was driving for the entirety of the trip. ", 
-
-"We found out how to out how to connect my dad's iPad to the speakers in the RV and watched a movie before bed. Jurassic Park was the pick for that night. An excellent watch, and a classic to this day! ", 
-
+{
+  text: "We found out how to out how to connect my dad's iPad to the speakers in the RV and watched a movie before bed. Jurassic Park was the pick for that night. An excellent watch, and a classic to this day! ", 
+  image: "albsunset.jpg",
+  imageSide: "right"
+},
  "You know how I said it was hot in the daytime? Well. The morning, not so much. The frosted tips covered the areas of the grass not yet touched by the sun which happend to be most of it at the time. Since the mountains were so tall here the sun took a bit longer to rise above them, hence the long cool mornings. Or cold I should say. I elected to stay in my bed most mornings hiding away from the touch of air that would send goosebumps down my back. ", 
 
 "However, the day had to start at some point and always did around the fire we'd build. This was our way of staying warm. There's something so peaceful about starting the day this way. No scrolling, no alarm, just a natural wake. ", 
-
-"That day we set out for a very popular location known as Lake Louise. Something to note is that Lake Louise is a glacier lake. A glacier lake is formed when a moving glacier impacts the grounds in a way where it leaves a hole behind it. This hole is then filled with the melt of the glacier leaving behind a lake. ", 
-
+{
+  text: "That day we set out for a very popular location known as Lake Louise. Something to note is that Lake Louise is a glacier lake. A glacier lake is formed when a moving glacier impacts the grounds in a way where it leaves a hole behind it. This hole is then filled with the melt of the glacier leaving behind a lake. ", 
+  image: "louise.png",
+  imageSide: "left"
+},
  "Now I'm not a geologist nor am I super knowledgeable on glaciers, but this description gives you an idea of not only the scale of the lake but the temperature of the water. Frigid. Now we didn't actually go ON the water, but I could only imagine how it felt to go in. We went to the edge of the lake where we could take a photo of it and go for lunch at this place next to Walliser Stube. Alot less fancy than the Walliser Stube, it was pretty much a corner store like place with sandwiches. We bought a few and headed outside to eat by the lake. ", 
 
  "By the way, something that stands out immediately when you get to the lake is how blue the water is. Ive never seen a bluer lake in my life. It has something to do with it being a glacier lake in how it contains remnants of glacier debris or something like that. Whatever it is blue is the water of the lake called louis. Now there are lots of hikes you can do around it to see the lake from above, and looking back I wish we did them but at that time it was HOT, and I didn't intend on hiking in the heat unprepared. ", 
@@ -233,9 +239,11 @@ const BLOG_CONTENT = {
  " Apon reaching the peak again, which is where we started, we headed for the car and planned to head into town for dinner. The town of banff was a very cozy looking town with sleepy town vibes but in a good way. It has a certain charm to it. Unfortunately, I can't remember where we stopped for dinner, but it was probably pretty good.", 
 
  "That night we ended up watching Starwars: The Empire Strikes Back. Classic, once again. Unfortunately for us it was our last day in Banff but NOT the last day of our trip. ",  
-
- "On our way back home we stayed at this cabin located near Enderby, BC. Another small town of many in British Columbia. Here we spend a few more days in the back country enjoying the sun, floating around at the Enderby river float, which is a slow river many people tube down.",  
-
+{
+  text: "On our way back home we stayed at this cabin located near Enderby, BC. Another small town of many in British Columbia. Here we spend a few more days in the back country enjoying the sun, floating around at the Enderby river float, which is a slow river many people tube down.",  
+  image: "wayback.jpg",
+  imageSide: "right"
+},
 " Now, Ive done it before and it's definitely worth it, but this time we just went to where people finish the float and swam around there for an evening. We finished the day with ice cream from a local parlour and ordered takeout pizza to bring back to our cabin. The movie of the night or show rather, was one we watch on the regular. It's Called 'Last Man Standing', and it's definitely worth the watch. The next morning we set out for the road and finally arrived home.",  
 
  "I wanna end the story with quickly talking about Alberta. Specifically, Banff, Alberta. To anyone wanting a quiet get away full of beautiful scenery and outdoor activities, I would 100% recommend this trip and would recommend a 3-5 day trip to get settled into the enviroment and have a relaxing yet exciting trip to Banff, Alberta.", 
