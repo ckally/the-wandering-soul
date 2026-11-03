@@ -237,6 +237,8 @@ const BLOG_CONTENT = {
  " Looking back now I can't remember exactly why I ate most of it but this one decision would later haunt me as that night was spend between my bedside with the feeling of a bomb in my stomach, and the outhouse with me igniting said bomb and dropping it on Hiroshima, or in my case the sewage catch. It was a horrible experience but one I won't ever forget. Especially not now since I've documented it.", 
 {
   text: "Next morning I surprisingly felt way better. The war was finally over. That morning was spent not in my bed but setting out to for a hike that was pretty difficult around Picklejar lake. Another really cool lake, not as blue but the hike made up for it as the challenge it took to get there made it worth it. You had to essentially hike down a steep face to get down to the lake and hike up the way out. The way out was much harder but to the surprise of myself and my mom was my, at the time 57-year-old dad; I kid you not running up the steep zig zag trail. I guess all that trail running really paid off. ", 
+  image: "pickle.png",
+  imageSide: "right",
   links: [
     { text: "Picklejar Lake", url: "https://hikebiketravel.com/the-pickle-jar-lakes-hike-in-kananaskis-country/" }
   ]
@@ -245,9 +247,9 @@ const BLOG_CONTENT = {
 
  " Apon reaching the peak again, which is where we started, we headed for the car and planned to head into town for dinner. The town of banff was a very cozy looking town with sleepy town vibes but in a good way. It has a certain charm to it. Unfortunately, I can't remember where we stopped for dinner, but it was probably pretty good.", 
 {
-  text: " The next stop on our list that day was a place called Mistya Canyon. Now this place was very interesting to say the least. Incredible rock formations, with fast flowing water flowing through, endless trails around to see the area in every which way, and unpredictable terrain that climbed and descended as it pleased. A very cool spot. Definitely worth the stop if your in the area. Soon after the sun started to fall ahead the earth and we headed back to our campsite.", 
+  text: " The next stop on our list that day was a place called Mistaya Canyon. Now this place was very interesting to say the least. Incredible rock formations, with fast flowing water flowing through, endless trails around to see the area in every which way, and unpredictable terrain that climbed and descended as it pleased. A very cool spot. Definitely worth the stop if your in the area. Soon after the sun started to fall ahead the earth and we headed back to our campsite.",
   image: "alber.jpg",
-  imageSide: "right",
+  imageSide: "left",
   links: [ 
     { text: "Mistaya Canyon", url: "https://www.banfflakelouise.com/experiences/mistaya-canyon" }
   ]
@@ -256,7 +258,7 @@ const BLOG_CONTENT = {
 {
   text: "On our way back home we stayed at this cabin located near Enderby, BC. Another small town of many in British Columbia. Here we spend a few more days in the back country enjoying the sun, floating around at the Enderby river float, which is a slow river many people tube down.",  
   image: "wayback.jpg",
-  imageSide: "left",
+  imageSide: "right",
   links: [ 
     { text: "Enderby River Float", url: "https://explorethemap.com/enderby-river-float/" }
   ]

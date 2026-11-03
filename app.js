@@ -172,16 +172,19 @@ function renderJournalParagraph(paragraph, journal) {
 }
 
 function renderJournalText(text, links = []) {
-  const validLinks = links.filter(link => /^https?:\/\//i.test(link.url));
+  const validLinks = links.filter(link =>
+    typeof link.text === "string" && link.text.length > 0 && /^https?:\/\//i.test(link.url)
+  );
   let html = "";
   let cursor = 0;
 
   validLinks.forEach(link => {
-    const index = text.indexOf(link.text, cursor);
+    const index = text.toLowerCase().indexOf(link.text.toLowerCase(), cursor);
     if (index === -1) return;
 
     html += escapeHTML(text.slice(cursor, index));
-    html += `<a href="${escapeHTML(link.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(link.text)}</a>`;
+    const matchedText = text.slice(index, index + link.text.length);
+    html += `<a href="${escapeHTML(link.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(matchedText)}</a>`;
     cursor = index + link.text.length;
   });
 
