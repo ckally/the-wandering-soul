@@ -211,7 +211,7 @@ const BLOG_CONTENT = {
 "Once we felt our fingers and toes would fall off if we stayed any longer, we headed back to the camper for lunch. Hot dogs and beans it was for that day. A camping meal classic for sure. The rest of the day was spent mainly relaxing as the day before was pretty tiring, especially for my dad who was driving for the entirety of the trip. ", 
 {
   text: "We found out how to out how to connect my dad's iPad to the speakers in the RV and watched a movie before bed. Jurassic Park was the pick for that night. An excellent watch, and a classic to this day! ", 
-  image: "albsunset.jpg",
+  image: "albsun.jpg",
   imageSide: "right"
 },
  "You know how I said it was hot in the daytime? Well. The morning, not so much. The frosted tips covered the areas of the grass not yet touched by the sun which happend to be most of it at the time. Since the mountains were so tall here the sun took a bit longer to rise above them, hence the long cool mornings. Or cold I should say. I elected to stay in my bed most mornings hiding away from the touch of air that would send goosebumps down my back. ", 
