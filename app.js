@@ -32,15 +32,26 @@ function renderHomeParagraph(text) {
 }
 
 // Images can be shortcuts, links, paths, or just filenames in assets/gallery/.
-function imageUrl(value) {
+function imageUrl(value, optimize = true) {
   const source = content.images[value] || value || "";
   if (!source) return "";
-  if (/^(https?:\/\/|\/|\.\/|\.\.\/|assets\/|data:)/i.test(source)) return source;
-  return `assets/gallery/${source}`;
+  const imagePath = /^(https?:\/\/|\/|\.\/|\.\.\/|assets\/|data:)/i.test(source)
+    ? source
+    : `assets/gallery/${source}`;
+  if (!optimize) return imagePath;
+
+  return imagePath.replace(
+    /^((?:(?:\.\.?\/)|\/)?assets\/gallery\/)([^/]+)\.(jpe?g|png)([?#].*)?$/i,
+    (_, folder, name, format, suffix = "") =>
+      `${folder}optimized/${format.toLowerCase()}/${name}.webp${suffix}`
+  );
 }
 
 function imageTag(source, description, extraClass = "") {
-  return `<img src="${escapeHTML(imageUrl(source))}" alt="${escapeHTML(description)}" class="${escapeHTML(extraClass)}" loading="lazy">`;
+  const original = imageUrl(source, false);
+  const optimized = imageUrl(source);
+  const fallback = optimized !== original ? ` data-fallback-src="${escapeHTML(original)}"` : "";
+  return `<img src="${escapeHTML(optimized)}"${fallback} alt="${escapeHTML(description)}" class="${escapeHTML(extraClass)}" loading="lazy">`;
 }
 
 function contactLink() {
@@ -427,7 +438,7 @@ function attachPageButtons() {
     button.addEventListener("click", () => {
       const photos = currentGalleryTab === "Digi-Cams" ? content.digiPhotos : content.photos;
       const photo = photos[Number(button.dataset.photoIndex)];
-      document.getElementById("lightboxImage").src = imageUrl(photo.image);
+      document.getElementById("lightboxImage").src = imageUrl(photo.image, false);
       document.getElementById("lightboxImage").alt = photo.caption;
       document.getElementById("lightbox").hidden = false;
       document.body.style.overflow = "hidden";
@@ -454,6 +465,14 @@ function closeLightbox() {
   document.getElementById("lightbox").hidden = true;
   document.body.style.overflow = "";
 }
+
+document.addEventListener("error", event => {
+  const image = event.target;
+  if (!(image instanceof HTMLImageElement) || !image.dataset.fallbackSrc) return;
+  const fallbackSrc = image.dataset.fallbackSrc;
+  image.removeAttribute("data-fallback-src");
+  image.src = fallbackSrc;
+}, true);
 
 document.getElementById("menuToggle").addEventListener("click", () => {
   document.querySelector(".desktop-nav").classList.toggle("open");

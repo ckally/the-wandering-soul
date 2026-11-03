@@ -94,7 +94,7 @@ To change one of the four homepage photos, edit the `image` value inside `homeCa
 
 **Important:** Copying a file into the folder does not display it by itself. Add its filename to `photos: [ ... ]` in `content.js` to show it in the Gallery. You choose its caption and order there. You can use the same file in multiple parts of the site without copying it again.
 
-**Photo tips:** Keep filenames short and consistent. `.jpg`, `.png`, and `.webp` work well. Compress large photos to keep the website fast; around 200–500 KB per photo is a useful starting target, though wide hero photos may need more.
+**Photo tips:** Keep filenames short and consistent. `.jpg`, `.png`, and `.webp` work well. Existing JPG and PNG photos are displayed using smaller WebP copies in `assets/gallery/optimized/`, while the originals are kept for the expanded photo viewer. For new JPG or PNG photos, add a matching WebP copy in `assets/gallery/optimized/jpg/` or `assets/gallery/optimized/png/` to get the same speed benefit; without one, the site falls back to the original. Compress large photos to keep the website fast; around 200–500 KB per photo is a useful starting target, though wide hero photos may need more.
 
 ## 5. Add photos to Gallery → Digi-Cams
 
