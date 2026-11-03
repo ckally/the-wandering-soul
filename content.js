@@ -437,7 +437,7 @@ const BLOG_CONTENT = {
   // SECTION 8 — OH, THE PLACES YOU'LL GO
   // ========================================================================
   places: [
-    { name: "The Mountains", label: "FOR THE WILD AT HEART", image: "mountain", description: "For crisp morning air, winding trails, and the kind of views that make everything else go quiet.", mapLink: "https://www.google.com/maps/search/?api=1&query=mountain+destinations" },
+    { name: "Banff, Alberta", label: "Quiet, yet breathtaking", image: "alberta.jpg", description: "Want a relaxing getaway located between mountains and rivers, with rich history, and a cozy small town vibe? Banff, Alberta might be the perfect choice for your next trip.", mapLink: "https://www.banfflakelouise.com/", journalId: "postcards-from-coast" },
     { name: "By the Sea", label: "FOR THE SLOW AFTERNOONS", image: "coast", description: "For salty hair, long lunches, little coastal streets, and sunsets you wish could last forever.", mapLink: "https://www.google.com/maps/search/?api=1&query=coastal+destinations" },
     { name: "Lakeside", label: "FOR THE PEACEFUL MOMENTS", image: "alpine", description: "For still water, good books, an open view, and the simple pleasure of doing nothing at all.", mapLink: "https://www.google.com/maps/search/?api=1&query=beautiful+lakes" }
   ],

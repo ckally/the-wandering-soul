@@ -126,7 +126,7 @@ Find `SECTION 8 — OH, THE PLACES YOU'LL GO`. Add a block like this to the `pla
 },
 ```
 
-Copy each photo into `assets/gallery/` and use its filename. Add as many photos and map links as you like. Each destination can also use its original `image` and `mapLink` fields if it only has one photo and one map link.
+Copy each photo into `assets/gallery/` and use its filename. Add as many photos and map links as you like. Each destination can also use its original `image` and `mapLink` fields if it only has one photo and one map link. To show a button linking to a journal story beneath the map links, add `journalId` with the story's `id` from the journals list.
 
 ## 7. Add a place to “Where to Next?”
 
@@ -139,7 +139,7 @@ The **Where to Next?** page is your personal travel bucket list. In `content.js`
   photos: ["destination.jpg"],
   description: "What makes me want to go.",
   mapLinks: [
-    { label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=destination" }
+    { label: "Check it out", url: "https://www.google.com/maps/search/?api=1&query=destination" }
   ]
 },
 ```

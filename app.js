@@ -217,7 +217,7 @@ function renderJournal(id) {
 function renderDestinationCards(destinations) {
   return destinations.map((place, index) => {
     const photos = place.photos || (place.image ? [place.image] : []);
-    const mapLinks = place.mapLinks || (place.mapLink ? [{ label: "EXPLORE THE MAP", url: place.mapLink }] : []);
+    const mapLinks = place.mapLinks || (place.mapLink ? [{ label: "Check it out", url: place.mapLink }] : []);
 
     return `
       <article class="destination-feature ${index % 2 ? "reverse" : ""}">
@@ -231,6 +231,7 @@ function renderDestinationCards(destinations) {
           ${mapLinks.length ? `<div class="destination-map-links">
             ${mapLinks.map(map => `<a class="text-link" href="${escapeHTML(map.url)}" target="_blank" rel="noopener">${escapeHTML(map.label)} <span>↗</span></a>`).join("")}
           </div>` : ""}
+          ${place.journalId ? `<a class="btn solid destination-journal-link" href="#story/${encodeURIComponent(place.journalId)}">READ THE JOURNAL ENTRY ↗</a>` : ""}
         </div>
       </article>
     `;
