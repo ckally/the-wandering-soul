@@ -151,6 +151,26 @@ function renderTravels() {
   `;
 }
 
+function renderJournalParagraph(paragraph, journal) {
+  if (typeof paragraph === "string" || !paragraph.image) {
+    const text = typeof paragraph === "string" ? paragraph : paragraph.text;
+    return `<p>${escapeHTML(text)}</p>`;
+  }
+
+  const photoSide = paragraph.imageSide === "left" ? "left" : "right";
+  const caption = paragraph.caption || "";
+
+  return `
+    <div class="article-paragraph-with-photo article-paragraph-photo-${photoSide}">
+      <p>${escapeHTML(paragraph.text)}</p>
+      <figure class="article-inline-photo">
+        ${imageTag(paragraph.image, caption || `${journal.title} photograph`)}
+        ${caption ? `<figcaption>${escapeHTML(caption)}</figcaption>` : ""}
+      </figure>
+    </div>
+  `;
+}
+
 // When a journal card is clicked, it opens its complete entry.
 function renderJournal(id) {
   const journal = content.journals.find(item => item.id === id);
@@ -163,7 +183,7 @@ function renderJournal(id) {
       <div class="story-meta">${escapeHTML(journal.section.toUpperCase())} &nbsp; / &nbsp; ${escapeHTML(journal.date)}</div>
       <h1>${escapeHTML(journal.title)}</h1>
       <p class="lead">${escapeHTML(journal.opening)}</p>
-      ${journal.paragraphs.map(paragraph => `<p>${escapeHTML(paragraph)}</p>`).join("")}
+      ${journal.paragraphs.map(paragraph => renderJournalParagraph(paragraph, journal)).join("")}
       <p class="article-closing">${escapeHTML(journal.closing)}</p>
       <a href="#travels" class="text-link">BACK TO THE JOURNAL <span>↗</span></a>
     </article>

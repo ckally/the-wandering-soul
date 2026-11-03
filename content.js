@@ -142,8 +142,9 @@ const BLOG_CONTENT = {
   //   - Copy one entire { ... } entry and paste it before the closing ].
   //   - Give it a NEW unique id (lowercase words joined-with-hyphens).
   //   - Set section to exactly "On the Road" or "The Day to Day".
-  //   - Put each paragraph in its own quoted line inside paragraphs: [ ... ].
+  //   - Put each paragraph in its own line inside paragraphs: [ ... ].
   //   - image can be an image shortcut (like "coast") or your photo path.
+  //   - To place a photo beside a paragraph, use { text, image, caption, imageSide }.
   journals: [
     {
       id: "the-in-between",
@@ -191,7 +192,11 @@ const BLOG_CONTENT = {
 
  "The day was August 28th, 2023, about a week before heading back for my last day of school. My parents and I set off for a road trip to Banff, Alberta. The plan was to drive to this place that rented out RV's, get one and trailer it to a campground in Banff. ", 
 
-"So, we set off on our 8-hour road trip to Banff. Along the way roads ducked and dove along mountain sides, shaped around corners, and stretched for miles. One thing to note is I live in British Columbia, Canada. A place known for mountainous areas and valleys. So why is the Mountains here cool to see if I live right next to them. Well, it's the scale of it all. ", 
+{
+  text: "So, we set off on our 8-hour road trip to Banff. Along the way roads ducked and dove along mountain sides, shaped around corners, and stretched for miles. One thing to note is I live in British Columbia, Canada. A place known for mountainous areas and valleys. So why is the Mountains here cool to see if I live right next to them. Well, it's the scale of it all.",
+  image: "hwy.jpg",
+  imageSide: "right"
+},
 
 "The mountains here belong to a 3000-mile stretch of mountains called 'The Rockies'. These mountains happen to be MUCH bigger than the ones I live by. The faces are much more raw, with extreme changes in elevation and unique patterns. Just looking at them makes you feel like an ant by a hill. ", 
 
@@ -235,7 +240,7 @@ const BLOG_CONTENT = {
 
  "I wanna end the story with quickly talking about Alberta. Specifically, Banff, Alberta. To anyone wanting a quiet get away full of beautiful scenery and outdoor activities, I would 100% recommend this trip and would recommend a 3-5 day trip to get settled into the enviroment and have a relaxing yet exciting trip to Banff, Alberta.", 
 
- "THE END" 
+ "THE END"
 
       ],
       closing: "The feeling of being away and being home at the same time."

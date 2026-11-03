@@ -51,7 +51,12 @@ Here is a fresh example:
   opening: "The first paragraph in a slightly larger font.",
   paragraphs: [
     "This is my first full paragraph about the trip.",
-    "This is my second paragraph. Add as many as you like.",
+    {
+      text: "This paragraph will appear beside a photo.",
+      image: "maui-sunset.jpg",
+      caption: "Sunset in Maui",
+      imageSide: "right"
+    },
     "And a third paragraph with another memory."
   ],
   closing: "A final thought to end the story."
@@ -63,6 +68,7 @@ Important things to remember:
 - `id` must be unique for each post. Use lowercase letters, numbers, and hyphens only. It becomes the post's link.
 - `section` must say **`"On the Road"`** or **`"The Day to Day"`** exactly.
 - `image` can be a filename in `assets/gallery/` (for example `"maui-beach.jpg"`) or an image shortcut such as `"coast"`.
+- Each item in `paragraphs` can be a text string, or an object with `text` and `image` to display a photo beside that paragraph. Add an optional `caption`; set `imageSide` to `"left"` or `"right"` (it defaults to the right). On small screens, the photo stacks below its text.
 - A comma belongs between journal blocks. You can leave a comma after the last item, too.
 - Do not remove the opening and closing square brackets around the full list.
 
