@@ -263,7 +263,7 @@ const BLOG_CONTENT = {
 },
  " The funny part is he had a bell attached to his bag which he said had something about bear protection but seems to me like he just attached a beer signal to his bag that told every bear in the area exactly where dinner would be. Anyways, it was funny because as he ran up it jingled in a way that made him sound like Rudolph running which had me and my mom giggling.", 
 
- " Apon reaching the peak again, which is where we started, we headed for the car and planned to head into town for dinner. The town of banff was a very cozy looking town with sleepy town vibes but in a good way. It has a certain charm to it. Unfortunately, I can't remember where we stopped for dinner, but it was probably pretty good.", 
+ " Apon reaching the peak again, which is where we started, we headed for the car and planned to head into town for lunch. The town of banff was a very cozy looking town with sleepy town vibes but in a good way. It has a certain charm to it. Unfortunately, I can't remember where we stopped for lunch, but it was probably pretty good.", 
 {
   text: " The next stop on our list that day was a place called Mistaya Canyon. Now this place was very interesting to say the least. Incredible rock formations, with fast flowing water flowing through, endless trails around to see the area in every which way, and unpredictable terrain that climbed and descended as it pleased. A very cool spot. Definitely worth the stop if your in the area. Soon after the sun started to fall ahead the earth and we headed back to our campsite.",
   image: "alber.jpg",
