@@ -200,8 +200,12 @@ const BLOG_CONTENT = {
 },
 
 "The mountains here belong to a 3000-mile stretch of mountains called 'The Rockies'. These mountains happen to be MUCH bigger than the ones I live by. The faces are much more raw, with extreme changes in elevation and unique patterns. Just looking at them makes you feel like an ant by a hill. ", 
-
-"After about 6 hours we got to the site where we picked up a trailer and continued the journey to our destination. Banff, Alberta, and my goodness was it cool. Away from cities, away from sirens, away from distractions, the silence was loud. That was the first thing I noticed when we arrived. Among other things, the beauty of it all took my breath away as we set everything up at our site which was located in the middle of the valley. ", 
+{
+  text: "After about 6 hours we got to the site where we picked up a trailer and continued the journey to our destination. Banff, Alberta, and my goodness was it cool. Away from cities, away from sirens, away from distractions, the silence was loud. That was the first thing I noticed when we arrived at Silverhorn Creek Campground, Among other things, the beauty of it all took my breath away as we set everything up at our site which was located in the middle of the valley. ", 
+  links: [ 
+    { text: "Silverhorn Creek Campground", url: "https://silvercreekcampground.ca/" }
+  ]
+},
 {
   text: "Our first day was spent getting there, setting up, and having a little dinner by the fire we made. Thankfully, the fire ban was lifted at this point.", 
   image: "Camp.png",
