@@ -190,7 +190,22 @@ function renderJournalText(text, links = []) {
   let cursor = 0;
 
   validLinks.forEach(link => {
-    const index = text.toLowerCase().indexOf(link.text.toLowerCase(), cursor);
+    const lowerText = text.toLowerCase();
+    const lowerLinkText = link.text.toLowerCase();
+    let index = lowerText.indexOf(lowerLinkText, cursor);
+
+    while (index !== -1) {
+      const before = text[index - 1];
+      const after = text[index + link.text.length];
+      const startsWithWordCharacter = /[\p{L}\p{N}_]/u.test(link.text[0]);
+      const endsWithWordCharacter = /[\p{L}\p{N}_]/u.test(link.text[link.text.length - 1]);
+      const hasWordBoundaryBefore = !startsWithWordCharacter || !before || !/[\p{L}\p{N}_]/u.test(before);
+      const hasWordBoundaryAfter = !endsWithWordCharacter || !after || !/[\p{L}\p{N}_]/u.test(after);
+
+      if (hasWordBoundaryBefore && hasWordBoundaryAfter) break;
+      index = lowerText.indexOf(lowerLinkText, index + 1);
+    }
+
     if (index === -1) return;
 
     html += escapeHTML(text.slice(cursor, index));
