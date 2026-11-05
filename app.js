@@ -240,9 +240,9 @@ function renderDestinationCards(destinations) {
           <h2>${escapeHTML(place.name)}</h2>
           <p>${escapeHTML(place.description)}</p>
           ${mapLinks.length ? `<div class="destination-map-links">
-            ${mapLinks.map(map => `<a class="text-link" href="${escapeHTML(map.url)}" target="_blank" rel="noopener">${escapeHTML(map.label)} <span>↗</span></a>`).join("")}
+            ${mapLinks.map(map => `<a class="btn solid" href="${escapeHTML(map.url)}" target="_blank" rel="noopener">${escapeHTML(map.label)} <span>↗</span></a>`).join("")}
           </div>` : ""}
-          ${place.journalId ? `<a class="btn solid destination-journal-link" href="#story/${encodeURIComponent(place.journalId)}">READ THE JOURNAL ENTRY ↗</a>` : ""}
+          ${place.journalId ? `<a class="text-link destination-journal-link" href="#story/${encodeURIComponent(place.journalId)}">READ THE JOURNAL ENTRY ↗</a>` : ""}
         </div>
       </article>
     `;
