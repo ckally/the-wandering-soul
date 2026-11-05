@@ -308,7 +308,7 @@ const BLOG_CONTENT = {
           { text: "Maui", url: "https://www.gohawaii.com/islands/maui" },
           { text: "Hawaii (The Big Island)", url: "https://www.gohawaii.com/islands/hawaii-big-island" },
           { text: "Moloka'i", url: "https://www.gohawaii.com/islands/molokai" },
-          { text: "Lana'i", url: "https://www.gohawaii.com/islands/lana-i" }
+          { text: "Lana'i", url: "https://www.gohawaii.com/islands/lanai" }
         ]
       },
        "The trips I've been on takes place between ages 6 and up to 17 with multiple trips to different islands so information about said islands is limited and therefore I cannot give significant recommendations and or specific locations I went to. So, for the sake of a general idea of what each island I've been to offers I will give a quick overview, a few locations, and a story about each one and give you guys the best information I can with my limited resources. Let's begin.",
@@ -532,10 +532,10 @@ const BLOG_CONTENT = {
   // ========================================================================
   places: [
     { name: "Banff, Alberta", label: "Quiet, yet breathtaking", image: "alberta.jpg", description: "Want a relaxing getaway located between mountains and rivers, with rich history, and a cozy small town vibe? Banff, Alberta might be the perfect choice for your next trip.", mapLink: "https://www.banfflakelouise.com/", journalId: "postcards-from-coast" },
-    { name: "Hawaii (The Big Island)", label: "Many a volcanoes", image: "Hawaii2.jpg", description: "The Best choice if you want great hikes, lots of towns, and massive volcanoes.", mapLink: "https://www.gohawaii.com/islands/hawaii-big-island" , journalId: "the-long-way"},
-    { name: "Oahu, Hawaii", label: "City life meets naturous island", image: "Oahu.jpg", description: "The Best choice if you want a bit more of an urban vibe mixed with coastline and beautiful beaches.", mapLink: "https://www.gohawaii.com/islands/oahu", journalId: "the-long-way" },
+    { name: "Hawaii (The Big Island)", label: "Many a volcanoes", image: "hawaii2.jpg", description: "The Best choice if you want great hikes, lots of towns, and massive volcanoes.", mapLink: "https://www.gohawaii.com/islands/hawaii-big-island" , journalId: "the-long-way"},
+    { name: "Oahu, Hawaii", label: "City life meets naturous island", image: "oahu.jpg", description: "The Best choice if you want a bit more of an urban vibe mixed with coastline and beautiful beaches.", mapLink: "https://www.gohawaii.com/islands/oahu", journalId: "the-long-way" },
     { name: "Maui, Hawaii", label: "The Honeymoons Paridise", image: "maui.jpg", description: "The best choice for honeymooners or just a relaxing getaway.", mapLink: "https://www.gohawaii.com/islands/maui" , journalId: "the-long-way"},
-    { name: "Kauai, Hawaii", label: "The 'Wild Island'", image: "Kauai.webp", description: "The best choice if you want a raw hawaiian experience and see where they filmed 'Jurassic Park'.", mapLink: "https://www.gohawaii.com/islands/kauai", journalId: "the-long-way" },
+    { name: "Kauai, Hawaii", label: "The 'Wild Island'", image: "kauai.webp", description: "The best choice if you want a raw hawaiian experience and see where they filmed 'Jurassic Park'.", mapLink: "https://www.gohawaii.com/islands/kauai", journalId: "the-long-way" },
   ],
   // Add places you personally hope to visit. Entries use the same format as `places`.
   bucketList: [
@@ -594,5 +594,4 @@ const BLOG_CONTENT = {
     message: "I'd love to hear your story."
   }
 };
-
 
