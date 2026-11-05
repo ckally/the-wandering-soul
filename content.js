@@ -331,10 +331,8 @@ const BLOG_CONTENT = {
        'Finally, we have Maui. This island is definitely the most known of the islands for its popularity as the destination for many honeymoons, and there is a good reason for that. This island was the first of the islands I ever went to and went there with my brother, my parents, and my grandparents. This island has almost everything you could want from a \'tropical\' vacation. Great beaches, food, hikes, and more. ',
 
        "The most memorable thing from my experience was on one of the first trips we took to Maui and at the time was my least favorite thing we did there. Reasons being at the time I was 8 years old, my dad woke me up at like 4 in the morning and drove us up a mountain for 2 hours and when we finally got to the top it was soooo cold. We were at the top of the Haleakalā volcano. This is the home of the Haleakalā national park stationed at about 10,000 feet above sea level. This place is also known as 'the house of the sun', most popular for its beautiful sunrise view across the island of Maui. At the time I didn\'t really appreciate it as much as I would now as all I wanted to do was go to the warm beach and soak in the sun. Nevertheless, I highly recommend it.",
-
-       "And that's it. All the information about the islands of Hawaii I could give based on experience and mild research. If you want further information about Hawaii in general click HERE. Overall, I\'d recommend a week or 2 at one of these islands to fully explore, relax and oh did I mention fire dancing and luaus? No? Well, that is definitely something to look into for your island of choice, or islands if you\'re stacked like that. Thanks for reading and hope you learned something about this amazing place. Real talk is one of my favorite destinations to travel to. Never a dull day.",
-
-       "THE END"
+"And that's it. All the information about the islands of Hawaii I could give based on experience and mild research. If you want further information about Hawaii in general click HERE. Overall, I\'d recommend a week or 2 at one of these islands to fully explore, relax and oh did I mention fire dancing and luaus? No? Well, that is definitely something to look into for your island of choice, or islands if you\'re stacked like that. Thanks for reading and hope you learned something about this amazing place. Real talk is one of my favorite destinations to travel to. Never a dull day.",
+"THE END"
 
       ],
       closing: "Whichever Island you choose will always be the right one."
