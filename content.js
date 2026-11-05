@@ -310,35 +310,76 @@ const BLOG_CONTENT = {
         ]
       },
        "The trips I've been on takes place between ages 6 and up to 17 with multiple trips to different islands so information about said islands is limited and therefore I cannot give significant recommendations and or specific locations I went to. So, for the sake of a general idea of what each island I've been to offers I will give a quick overview, a few locations, and a story about each one and give you guys the best information I can with my limited resources. Let's begin.",
-   
-       "Starting with the biggest Island which funnily enough does NOT have the most people, is Hawaii, but What it lacks in the number of people it makes up for the number of volcanoes, and my goodness is there a lot. In fact, Hawaii has the most ACTIVE volcanoes with 4 active volcanoes at the time of writing this. Hawaii has many places scattered around the island with different vibes and activities at each. The one I'm going to talk about since I went there was Kona.",
-
+       {
+       text: "Starting with the biggest Island which funnily enough does NOT have the most people, is Hawaii, but What it lacks in the number of people it makes up for the number of volcanoes, and my goodness is there a lot. In fact, Hawaii has the most ACTIVE volcanoes with 4 active volcanoes at the time of writing this. Hawaii has many places scattered around the island with different vibes and activities at each. The one I'm going to talk about since I went there was Kona.",
+       image: "hawaii2.jpg",
+       imageSide: "left",
+       },
        "I went to Kona, Hawaii in November 2023 with my parents. At the time my dad was flying a Boeing-737 and brought us along on one of his flights. In this case, Kona. The trip was pretty short, about 3 days, but if we weren't on a layover I would recommend about 5 — 7 days to get relaxed and have time to hit a few different towns.",
 
        " The main thing to note about Kona or specifically South-Kona is that due to the position of the Mauna Loa (The largest active volcano in Hawaii) it shields South-Kona from majority of winds making Kona the perfect location for snorkeling and swimming with glassy clear and calm water and what we ended up doing for most of the trip. Well that, and exploring the coastlines, visiting various diners and beaches. I remember we rented snorkels and flippers to use at this beach we found. I'm not sure how much they were, but we for sure spent too much. They were terrible. As soon as I got in the water, it would fog up quicker than a cool moist morning.",
 
        'Next up we have Kaua\'i. Also known as \'the Garden Island\' and is my favorite and most likely the one I\'d return to if I went again. This trip took place in 2022, my grade 10 year. At this point my classes were pretty easy so going away for a week wasn\'t too bad. That is except for gym. How do you get ahead of a class like gym? Well just be a goated student and have a really nice teacher. I told my teacher I was going away for a week and asked if there was anything I could do to not miss any marks from that week. He told me this. \'Do one hike and take a picture of a turtle\', 2 things that ended up being significantly harder than originally thought for reasons I\'ll explain in a few sentences.',
-
-       " First, I want to answer the question. Why should I go to Kauai?  My best case for going here instead of other islands is this. Kaua'i is one of the rawest and most untouched of the main islands. Incredible beaches, massive volcanoes, and landscapes straight out of story books. Some of the views you got from places you could even drive to were crazy, let alone some of the places you can hike t to. This island feels like what you'd expect Hawaii to be like.",
-
-       'A little fact about Kaua\'i is that this island is where they filmed the classic dinosaur movie released in 1993 called \'Jurassic Park\' which gives you an idea of the beauty and scale of the island. For more specific information, click HERE for general planning and specific locations. Now, back to why I mentioned earlier that doing one hike and getting a picture of a turtle was more difficult than originally intended. The reason being is that at that time we were just coming out of the Covid Pandemic and starting to travel again. ',
-
+       {
+       text: " First, I want to answer the question. Why should I go to Kauai?  My best case for going here instead of other islands is this. Kaua'i is one of the rawest and most untouched of the main islands. Incredible beaches, massive volcanoes, and landscapes straight out of story books. Some of the views you got from places you could even drive to were crazy, let alone some of the places you can hike t to. This island feels like what you'd expect Hawaii to be like.",
+       image: "kauai.webp",
+       imageSide: "right",
+       links: [
+         { text: "HERE", url: "https://finduslost.com/the-complete-kauai-travel-guide/" }
+       ]
+       },
+       {
+       text: 'A little fact about Kaua\'i is that this island is where they filmed the classic dinosaur movie released in 1993 called \'Jurassic Park\' which gives you an idea of the beauty and scale of the island. For more specific information, click HERE for general planning and specific locations. Now, back to why I mentioned earlier that doing one hike and getting a picture of a turtle was more difficult than originally intended. The reason being is that at that time we were just coming out of the Covid Pandemic and starting to travel again. ',
+       image: "jur.jpg",
+        imageSide: "left",
+       },
        'Up to this time I had never gotten Covid despite not really living in lockdown for the majority of time. However, the SECOND I leave the country I get covid and feel the effects about halfway through the trip. Unfortunately for me the first hike we ended up doing was around the halfway point and I was not feeling great. With my head beating like a drum and nose only half working, we set off for a \'moderately difficult hike\'. I\'m just going to come out and say it was horrible. A little bit of info to note is my dad has a very strong \'Tough it up\' mentality which is good most of the time except for now not believing me when I said I\'m dying. I guess he felt I said I was dying because I was \'out of shape\' or something which wasn\'t really the case at the time. After the trip I took a test and I was in fact not lying and my parents were forced to believe me. ',
 
        'The second challenge was getting a photo of a turtle which doesn\'t sound hard, except for the fact that turtles as of going there were endangered. As of now they are considered a \'threatened\' species but still. The fact of the matter is they are pretty hard to find. In our case, every beach we went to, I had an alternate goal. Find a turtle. This added a fun little game to each place we went to and on the 6th day, 1 day until we went home, we finally found a turtle and it was MASSIVE. Beached on the water\'s edge, tourists and locals alike took pictures of this beast. As did I and my mission was now complete. Overall, a great place to stay, even better for those not suffering from sickness.',
-
-       "Moving on, let's talk about Oahu. The home to those who wants a more domesticated Hawaiian experience. More specifically where City meets nature in a place called Waikiki, the city of Oahu. This is the place for those wanting a city vibe with great beaches and want to learn more about American history as Oahu is the home of Pearl Harbor. The famous location where in WW2, Japan launched an attack due to USA's involvement in the war and their denied request of backing out of resource-based sanctions against Japan. ",
-
-       "The site at the time was a port for American Naval ships and upon Japan launching an air raid via aircraft carriers and is now home to Memorial tours and museums. The city is also nice to explore and see which you can do by walking or renting an electric bike as there are lots of options for electric bikes and scooters along the coast. I recommend not exploring the city at night as it's not the safest with crime rates in Waikiki higher than in other places. ",
-
-       "Beyond the city there are amazing beaches trails and the famous Diamond Head hike which takes place along the ridge of the diamond head volcano which looks like a bowl from above. This is the main hike that my mom and I did when we were there. I highly recommend doing that as you get a great view of the city as well as the rest of the island. All in all, not the first island I would recommend but if it interests your I'd recommend 2-4 days here.",
-
-
-       'Finally, we have Maui. This island is definitely the most known of the islands for its popularity as the destination for many honeymoons, and there is a good reason for that. This island was the first of the islands I ever went to and went there with my brother, my parents, and my grandparents. This island has almost everything you could want from a \'tropical\' vacation. Great beaches, food, hikes, and more. ',
-
-       "The most memorable thing from my experience was on one of the first trips we took to Maui and at the time was my least favorite thing we did there. Reasons being at the time I was 8 years old, my dad woke me up at like 4 in the morning and drove us up a mountain for 2 hours and when we finally got to the top it was soooo cold. We were at the top of the Haleakalā volcano. This is the home of the Haleakalā national park stationed at about 10,000 feet above sea level. This place is also known as 'the house of the sun', most popular for its beautiful sunrise view across the island of Maui. At the time I didn\'t really appreciate it as much as I would now as all I wanted to do was go to the warm beach and soak in the sun. Nevertheless, I highly recommend it.",
-"And that's it. All the information about the islands of Hawaii I could give based on experience and mild research. If you want further information about Hawaii in general click HERE. Overall, I\'d recommend a week or 2 at one of these islands to fully explore, relax and oh did I mention fire dancing and luaus? No? Well, that is definitely something to look into for your island of choice, or islands if you\'re stacked like that. Thanks for reading and hope you learned something about this amazing place. Real talk is one of my favorite destinations to travel to. Never a dull day.",
-"THE END"
+       {
+       text: "Moving on, let's talk about Oahu. The home to those who wants a more domesticated Hawaiian experience. More specifically where City meets nature in a place called Waikiki, the city of Oahu. This is the place for those wanting a city vibe with great beaches and want to learn more about American history as Oahu is the home of Pearl Harbor. The famous location where in WW2, Japan launched an attack due to USA's involvement in the war and their denied request of backing out of resource-based sanctions against Japan. ",
+       image: "oahu.jpg",
+       imageSide: "right",
+        links: [
+          { text: "Waikiki", url: "https://www.gohawaii.com/islands/oahu/regions/honolulu/Waikiki" }
+        ]
+       },
+       {
+       text: "The site at the time was a port for American Naval ships and upon Japan launching an air raid via aircraft carriers, the harbour and most of the ships were either sunken or destroyed. Now, it is made up of Memorial tours and museums. The city is also nice to explore and see which you can do by walking or renting an electric bike as there are lots of options for electric bikes and scooters along the coast. I recommend not exploring the city at night as it's not the safest with crime rates in Waikiki higher than in other places. ",
+       links: [
+         { text: "Memorial tours", url: "https://pearlharbor.org/" },
+         { text: "Museums", url: "https://www.nps.gov/perl/index.htm" }
+       ]
+       }, 
+       {
+      text: "Beyond the city there are amazing beaches trails and the famous DiamondHead hike which takes place along the ridge of the diamond head volcano which looks like a bowl from above. This is the main hike that my mom and I did when we were there. I highly recommend doing that as you get a great view of the city as well as the rest of the island. All in all, not the first island I would recommend but if it interests your I'd recommend 2-4 days here.",
+      image: "dia.jpg",
+      imageSide: "left",
+      
+      links: [
+        { text: "DiamondHead hike", url: "https://www.alltrails.com/trail/hawaii/oahu/diamond-head-leahi-summit-trail" }
+      ]
+      },
+      {
+       text:'Finally, we have Maui. This island is definitely the most known of the islands for its popularity as the destination for many honeymoons, and there is a good reason for that. This island was the first of the islands I ever went to and went there with my brother, my parents, and my grandparents. This island has almost everything you could want from a \'tropical\' vacation. Great beaches, food, hikes, and more. ',
+       image: "maui.jpg",
+        imageSide: "right",
+      },
+      {
+       text:"The most memorable thing from my experience was on one of the first trips we took to Maui and at the time was my least favorite thing we did there. Reasons being is that at the time I was 8 years old, that morning my dad woke me up at like 4 in the morning and drove us up a mountain for 2 hours and when we finally got to the top it was soooo cold. We were at the top of the Haleakalā volcano. This is the home of the Haleakalā national park stationed at about 10,000 feet above sea level. This place is also known as 'the house of the sun', most popular for its beautiful sunrise view across the island of Maui. At the time I didn\'t really appreciate it as much as I would now as all I wanted to do was go to the warm beach and soak in the sun. Nevertheless, I highly recommend it. c beautiful view that makes you feel like your floating above the clouds.",
+       image: "sun.webp",
+       imageSide: "left",
+       links: [
+         { text: "Haleakalā volcano", url: "https://www.nps.gov/hale/index.htm" }
+       ]
+      },
+      {
+       text: "And that's it. All the information about the islands of Hawaii I could give based on experience and mild research. If you want further information about Hawaii in general click HERE. Overall, I\'d recommend a week or 2 at one of these islands to fully explore, relax and oh did I mention fire dancing and luaus? No? Well, that is definitely something to look into for your island of choice, or islands if you\'re stacked like that. Thanks for reading and hope you learned something about this amazing place. Real talk is one of my favorite destinations to travel to. Never a dull day.",
+       links: [
+         { text: "HERE", url: "https://www.gohawaii.com/trip-planning" }
+       ]
+      },
+      "THE END"
 
       ],
       closing: "Whichever Island you choose will always be the right one."
