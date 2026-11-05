@@ -323,17 +323,17 @@ const BLOG_CONTENT = {
 
        'Next up we have Kaua\'i. Also known as \'the Garden Island\' and is my favorite and most likely the one I\'d return to if I went again. This trip took place in 2022, my grade 10 year. At this point my classes were pretty easy so going away for a week wasn\'t too bad. That is except for gym. How do you get ahead of a class like gym? Well just be a goated student and have a really nice teacher. I told my teacher I was going away for a week and asked if there was anything I could do to not miss any marks from that week. He told me this. \'Do one hike and take a picture of a turtle\', 2 things that ended up being significantly harder than originally thought for reasons I\'ll explain in a few sentences.',
        {
-       text: " First, I want to answer the question. Why should I go to Kauai?  My best case for going here instead of other islands is this. Kaua'i is one of the rawest and most untouched of the main islands. Incredible beaches, massive volcanoes, and landscapes straight out of story books. Some of the views you got from places you could even drive to were crazy, let alone some of the places you can hike t to. This island feels like what you'd expect Hawaii to be like.",
+       text: " First, I want to answer the question. Why should I go to Kauai?  My best case for going here instead of other islands is this. Kaua'i is one of the rawest and most untouched of the main islands. Incredible beaches, massive volcanoes, and landscapes straight out of story books. Some of the views you got from places you could even drive to were crazy, let alone some of the places you can hike to. This island feels like what you'd expect Hawaii to be like.",
        image: "kauai.webp",
-       imageSide: "right",
-       links: [
-         { text: "HERE", url: "https://finduslost.com/the-complete-kauai-travel-guide/" }
-       ]
+       imageSide: "right"
        },
        {
        text: 'A little fact about Kaua\'i is that this island is where they filmed the classic dinosaur movie released in 1993 called \'Jurassic Park\' which gives you an idea of the beauty and scale of the island. For more specific information, click HERE for general planning and specific locations. Now, back to why I mentioned earlier that doing one hike and getting a picture of a turtle was more difficult than originally intended. The reason being is that at that time we were just coming out of the Covid Pandemic and starting to travel again. ',
        image: "jur.jpg",
         imageSide: "left",
+        links: [
+         { text: "HERE", url: "https://finduslost.com/the-complete-kauai-travel-guide/" }
+        ]
        },
        'Up to this time I had never gotten Covid despite not really living in lockdown for the majority of time. However, the SECOND I leave the country I get covid and feel the effects about halfway through the trip. Unfortunately for me the first hike we ended up doing was around the halfway point and I was not feeling great. With my head beating like a drum and nose only half working, we set off for a \'moderately difficult hike\'. I\'m just going to come out and say it was horrible. A little bit of info to note is my dad has a very strong \'Tough it up\' mentality which is good most of the time except for now not believing me when I said I\'m dying. I guess he felt I said I was dying because I was \'out of shape\' or something which wasn\'t really the case at the time. After the trip I took a test and I was in fact not lying and my parents were forced to believe me. ',
 
