@@ -434,7 +434,7 @@ const BLOG_CONTENT = {
         },
         "A moment I will never forget was during the arts and crafts. I saw this kid in the back, maybe 10 years old and he was a bit of a bigger kid than other kids there and a lot older. It reminded me of myself when I was that age, however in my case, I would have thought this was the lamest thing in the world. Doing arts and crafts? Dancing to children's music? Add on the fact he was a fair bit older than the rest if I was in his shoes I would have been embarrassed and begging to leave and go home. But he wouldn't have. No. He had a great big smile on his face, and he was playing with all the other kids the same. In that moment my perspective changed. How fortunate I was to think arts and crafts were embarrassing. How fortunate I was to have options. How fortunate I was to actually be embarrassed in the first place. This kid was in a much worse world yet had a better attitude than me at that age. One of those moments you never forget.",
         {
-        "Unforgettable moments were kind of the theme of this trip. Some good and some bad. Another thing I won't forget was visiting a place called \"trash hill\". It is as the name suggests. About a kilometer of a hillside was covered up and down with garbage, broken down vehicles, and waste. Did I mention people lived here? No? Ya people lived here. For many reasons whether it be drugs, addiction, poverty, they were here. Searching. Searching for everything and nothing at the same time. There's a symptom that often occurs after heavy use of methamphetamines. You are always looking around for something but you have nothing specific your looking for. Something we saw a lot of when we got here. People. Lost people searching around this wasteland. Looking for something, but nothing.",
+        text: "Unforgettable moments were kind of the theme of this trip. Some good and some bad. Another thing I won't forget was visiting a place called \"trash hill\". It is as the name suggests. About a kilometer of a hillside was covered up and down with garbage, broken down vehicles, and waste. Did I mention people lived here? No? Ya people lived here. For many reasons whether it be drugs, addiction, poverty, they were here. Searching. Searching for everything and nothing at the same time. There's a symptom that often occurs after heavy use of methamphetamines. You are always looking around for something but you have nothing specific your looking for. Something we saw a lot of when we got here. People. Lost people searching around this wasteland. Looking for something, but nothing.",
         image: "Mexico13.jpg",
         imageSide: "right"
         },
@@ -465,7 +465,7 @@ const BLOG_CONTENT = {
         {
         text: "Once we got through, we bused all the way to San Diego for the day and since I was older of the bunch, I was able to explore the city on my own. I stated at chick file because I had never gone their prior and wanted to see what all the hype was about. Other than really good service, there wasn't really anything special about it. I like to travel a little differently than most who were there with me. Since we were only in San Diego for a day, I figured I do something only San Diego would offer. In this case I chose to do the USS Midway museum. This museum took place on the USS Midway aircraft carrier and was able to explore every level and every room of it. With exhibits in every room and many cool planes from World War 2 and the Vietnam war. Very cool place a definitely recommend for anyone going to San Diego. So, who did I go with. Me, myself, and I. While I was going to the museum everyone else went to the beach. Fair enough. It is California after all who would want to go to a stuffy museum. Me, I guess. To be fair if I pitched it a little better more people probably would have come. All I really said was that I was going to a museum which could look completely different in people's minds.",
         image: "USS.jpg",
-        imageSide: "left"
+        imageSide: "left",
         links: [
           { text: "USS Midway Museum", url: "https://www.midway.org/" }
         ]
@@ -690,4 +690,3 @@ const BLOG_CONTENT = {
     message: "I'd love to hear your story."
   }
 };
-
