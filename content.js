@@ -385,7 +385,73 @@ const BLOG_CONTENT = {
 
       ],
       closing: "Whichever Island you choose will always be the right one."
-    }
+    },
+    {
+      id: "the-long-time",
+      section: "On the Road",
+      title: "Missions Trip in Mexico",
+      date: "TRAVEL JOURNAL / 03",
+      place: "July, 2024",
+      image: "title.png",
+      summary: "An unforgettable experience and one I would highly recommend",
+      opening: "Life, Change, and Perspective.",
+      paragraphs: [
+       {
+        text: "Let me tell you about Mexico! An amazing destination with plenty of options for beaches, margaritas and nights of endless parties. That is if you're in the right area. The truth about Mexico is as much as there's really nice areas, there is also extremely poor areas and there is more of it than people realize. In my case I was in Baja California, but specifically, south of San Quintin. The kind of place you'd expect to find trash filled hills, and landslides of alcohol. You definitely see those things but there's another thing you see. Broken people. People who for one reason or another have ended up at a low low low place in life or was just born into poverty, and unable to get out. Whatever the case, that is where we went. Myself, my church youth group from Mainstreet Church and One life ministries. Together, with enough money, my leaders, friends and I set off in a bus from San Diego to the heart of baja California to bring joy, a new house for a family, and the hope of Jesus Crist. This is how it went...",
+        image: "Mexico10.jpg",
+        imageSide: "left"
+       },
+        {
+       text: "First thing we did, obviously was go from San Diego to Baja California. Now, I don't live in San Diego, so the actual first thing we did was fly from Vancouver, BC to San Diego. From there we got in a big bus provided by one life ministry. We drove down the coast stopping at various places like In and Out, a VERY popular burger fast food chain and it was delicious. After a bit we got to the border of Mexico. Something interesting about the Mexican border is how easy it is to go through. There was no one there and it was pretty chill. Once we passed the border, the scenery slowly started changing. What was once palm trees, and coastlines with nice homes and architecture, turned into small shacks, massive concrete structures and huts. Definitely a different Mexico than what I'm used to.",
+       image: "Mexico20.jpg",
+       imageSide: "right"
+        },
+        {
+        text: "After a long drive we finally arrived at our headquarters. This place was pretty nice. There was large community housing, a soccer field, and even a pool. That night was spent praying with the group we went with and getting ready for tomorrow.",
+        image: "Mexico11.jpg",
+        imageSide: "left"
+        },
+        {
+        text: "The next day we set out for the worksite which was not too far away. Apon arriving, we met the family who were getting the house once it was built and it was pretty emotional. Seeing a small family with their kids tearing in their eyes thinking of what they're getting and to us it was nothing more than a small, single floor house that would be too small for any neighborhood in North America. But here it looked like just a normal house in a community. The family talked briefly about how Jesus had helped them in their lives and even brought the husband out of addiction. In fact, the main guy who was leading the construction of the house was originally someone whom our church built a house for in the past which shows what we were doing here actually made some kind of difference no matter how small.",
+        image: "Mexico16.jpg",
+        imageSide: "right"
+        },
+        {
+        text: "Throughout the next few days we organized into groups, cut wood, measured, nailed, hammered, painted and put together a house. From foundation to finished it was quite the process. Something to note is I don't really have experience was construction at all, so a lot of the practices and plans set out to make the house, I have never seen before, which made it a cool process to see. How a house is built from start to finish. The majority of work that I did was cutting pieces of wood for the drywall and painting the house. This process to learn and share with my friends was an amazing experience to say the least.",
+        image: "Mexico12.jpg",
+        imageSide: "left"
+
+        },
+        {
+        text: "Speaking of friends, I want to talk about a unique situation with who came to Mexico. Usually, you get a mix sign up of girls and guys from our youth group. However, in our case not one girl signed up for the trip. Whatever the reason it was from then on out called \"Mexico with the boys\". Between pranks at midnight with my buddy coming into my room at 2 in the morning with a slice of cheese and throwing it on my face, to the soccer matches between us and the Mexican staff. Call is Canada Vs. Mexico. It was an amazing experience and will forever bond us as not friends but brothers. Especially with what we all saw together, good and bad we will never forget it.",
+        image: "Mexico8.jpg",
+        imageSide: "right"
+        },
+        {
+        text: "Speaking of which I want to briefly talk about our experience with the kids and community center we visited. Went there on the 4th day after finishing the work for that day and headed over to the center to hang out with the kids of area. I just have to say this was one of the coolest and perspective changing experiences for me personally. We played games like bag racing and watched as they performed dances to Spanish music. After that, they did arts and crafts with all the kids.",
+          image: "Mexico5.jpg",
+          imageSide: "left"
+        },
+        "A moment I will never forget was during the arts and crafts. I saw this kid in the back, maybe 10 years old and he was a bit of a bigger kid than other kids there and a lot older. It reminded me of myself when I was that age, however in my case, I would have thought this was the lamest thing in the world. Doing arts and crafts? Dancing to children's music? Add on the fact he was a fair bit older than the rest if I was in his shoes I would have been embarrassed and begging to leave and go home. But he wouldn't have. No. He had a great big smile on his face, and he was playing with all the other kids the same. In that moment my perspective changed. How fortunate I was to think arts and crafts were embarrassing. How fortunate I was to have options. How fortunate I was to actually be embarrassed in the first place. This kid was in a much worse world yet had a better attitude than me at that age. One of those moments you never forget.",
+        {
+        "Unforgettable moments were kind of the theme of this trip. Some good and some bad. Another thing I won't forget was visiting a place called \"trash hill\". It is as the name suggests. About a kilometer of a hillside was covered up and down with garbage, broken down vehicles, and waste. Did I mention people lived here? No? Ya people lived here. For many reasons whether it be drugs, addiction, poverty, they were here. Searching. Searching for everything and nothing at the same time. There's a symptom that often occurs after heavy use of methamphetamines. You are always looking around for something but you have nothing specific your looking for. Something we saw a lot of when we got here. People. Lost people searching around this wasteland. Looking for something, but nothing.",
+        image: "Mexico13.jpg",
+        imageSide: "right"
+        },
+        {
+       i"We ended up getting out of the bus and talking to a few people before giving them food and water and praying for them. Seeing something like that puts a burden on your faith. How can there be a God when there are people who live like this. How could God let this happen. To that I say, I'm not totally sure. I don't know exactly why all this happens. What I do know is that the hold of sin is powerful and can keep people where they are, but the love of God is stronger and can lift up even the lowest souls. There is still hope. There is always hope. Hope for a better day. Hope that all of our suffering will soon disappear.",
+
+        },
+        "On our way back we stopped at this little restaurant and had chicken tacos. What a weird feeling. From wandering the trails of lost, and meeting people at their absolute worst in the dirt and grime of trash hill, to tasty tacos with Mexican music playing aloud. Makes you feel a bit guilty but also fortunate. It's hard to see all that is happening and not be able to do a lot about it. And as much as we were helping, the effect felt minimal compared to the scale of it all. I guess the rest is up to the will of the people and the spirit of the Lord.",
+        "That night we went to Mexican church with amazing music and our paster ended up speaking the sermon. I can't remember exactly what the sermon was, but it was sure cool seeing the cultures mix and how church operates in a different country. Most of it was the same except for a few things. Apparently when it's someone's birthday, whoever's birthday it is in the church, everyone, and I mean EVERYONE must hug the birthday person. So there we were. All lined up to hug a Mexican I have never met in a church I've never been, in a country mostly foreign to me. But at that moment I felt at home. I felt welcome. For the church of Christ doesn't hold strangers, rather brothers and sisters of the one true father. And I felt at home.",
+        "Next day was the last day in Mexico. The day we were finishing the house and presenting it to the family. Most of what we did was finish furnishing the inside and finishing the paint job. Once completed we called over the family into their new home and the look on their faces were priceless. Absolute joy and thankfulness about getting this tiny little home. A home in the middle of the Mexican desert with no air conditioning and no comforts and a nothing but a port a potty in the back behind the house. To see their reaction and to see how happy the kids were was surreal. Another thing I will NEVER forget. After that we prayed for them and the house, packed up all the equipment and went on our way. Such a strange feeling. The whole trip was a strange feeling. A trip filled with ups and downs, reality checks, perspective changes, and general appreciation for how good we truly have it.",
+        "On the way back it took a while to get through the border and when going through security my buddies were acting way to slack especially around joking about certain laws which definitely could have gotten them in trouble. It was way harder to get into Mexico than to get it out which I guess makes sense.",
+        "Once we got through, we bused all the way to San Diego for the day and since I was older of the bunch, I was able to explore the city on my own. I stated at chick file because I had never gone their prior and wanted to see what all the hype was about. Other than really good service, there wasn't really anything special about it. I like to travel a little differently than most who were there with me. Since we were only in San Diego for a day, I figured I do something only San Diego would offer. In this case I chose to do the USS Midway museum. This museum took place on the USS Midway aircraft carrier and was able to explore every level and every room of it. With exhibits in every room and many cool planes from World War 2 and the Vietnam war. Very cool place a definitely recommend for anyone going to San Diego. So, who did I go with. Me, myself, and I. While I was going to the museum everyone else went to the beach. Fair enough. It is California after all who would want to go to a stuffy museum. Me, I guess. To be fair if I pitched it a little better more people probably would have come. All I really said was that I was going to a museum which could look completely different in people's minds.",
+        "That night was spent with my buddy's late night going to the store and getting some food for the hotel room. We watched some movies and hung out till late, and when the sun rose, so did we. Back to the airport we went, and onto the plane that took us home. The trip had come to an end.",
+        "Before I let you guys go, I just want to say to anyone considering going on a mission trip or people who haven't thought about it I would highly recommend it. It was an amazing experience. One I will never forget. One that changes your perspective and gives you a further appreciation of our lives and where we live.",
+        "THE END"
+      ]
+    },
   ],
 
   // ========================================================================
