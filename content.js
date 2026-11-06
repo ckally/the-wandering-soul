@@ -439,16 +439,46 @@ const BLOG_CONTENT = {
         imageSide: "right"
         },
         {
-       i"We ended up getting out of the bus and talking to a few people before giving them food and water and praying for them. Seeing something like that puts a burden on your faith. How can there be a God when there are people who live like this. How could God let this happen. To that I say, I'm not totally sure. I don't know exactly why all this happens. What I do know is that the hold of sin is powerful and can keep people where they are, but the love of God is stronger and can lift up even the lowest souls. There is still hope. There is always hope. Hope for a better day. Hope that all of our suffering will soon disappear.",
+       text: "We ended up getting out of the bus and talking to a few people before giving them food and water and praying for them. Seeing something like that puts a burden on your faith. How can there be a God when there are people who live like this. How could God let this happen. To that I say, I'm not totally sure. I don't know exactly why all this happens. What I do know is that the hold of sin is powerful and can keep people where they are, but the love of God is stronger and can lift up even the lowest souls. There is still hope. There is always hope. Hope for a better day. Hope that all of our suffering will soon disappear.",
+      image: "Mexico15.jpg",
+      imageSide: "left"
+        },
+
+        "On our way back we stopped at this little restaurant and had chicken tacos. What a weird feeling. From wandering the trails of lost, and meeting people at their absolute worst in the dirt and grime of trash hill, to tasty tacos with Mexican music playing aloud. Makes you feel a bit guilty but also fortunate. It's hard to see all that is happening and not be able to do a lot about it. And as much as we were helping, the effect felt minimal compared to the scale of it all. I guess the rest is up to the will of the people and the spirit of the Lord.",
+        {
+        text: "That night we went to Mexican church with amazing music and our paster ended up speaking the sermon. I can't remember exactly what the sermon was, but it was sure cool seeing the cultures mix and how church operates in a different country. Most of it was the same except for a few things. Apparently when it's someone's birthday, whoever's birthday it is in the church, everyone, and I mean EVERYONE must hug the birthday person. So there we were. All lined up to hug a Mexican I have never met in a church I've never been, in a country mostly foreign to me. But at that moment I felt at home. I felt welcome. For the church of Christ doesn't hold strangers, rather brothers and sisters of the one true father. And I felt at home.",
+        image: "church.jpg",
+        imageSide: "right"
 
         },
-        "On our way back we stopped at this little restaurant and had chicken tacos. What a weird feeling. From wandering the trails of lost, and meeting people at their absolute worst in the dirt and grime of trash hill, to tasty tacos with Mexican music playing aloud. Makes you feel a bit guilty but also fortunate. It's hard to see all that is happening and not be able to do a lot about it. And as much as we were helping, the effect felt minimal compared to the scale of it all. I guess the rest is up to the will of the people and the spirit of the Lord.",
-        "That night we went to Mexican church with amazing music and our paster ended up speaking the sermon. I can't remember exactly what the sermon was, but it was sure cool seeing the cultures mix and how church operates in a different country. Most of it was the same except for a few things. Apparently when it's someone's birthday, whoever's birthday it is in the church, everyone, and I mean EVERYONE must hug the birthday person. So there we were. All lined up to hug a Mexican I have never met in a church I've never been, in a country mostly foreign to me. But at that moment I felt at home. I felt welcome. For the church of Christ doesn't hold strangers, rather brothers and sisters of the one true father. And I felt at home.",
-        "Next day was the last day in Mexico. The day we were finishing the house and presenting it to the family. Most of what we did was finish furnishing the inside and finishing the paint job. Once completed we called over the family into their new home and the look on their faces were priceless. Absolute joy and thankfulness about getting this tiny little home. A home in the middle of the Mexican desert with no air conditioning and no comforts and a nothing but a port a potty in the back behind the house. To see their reaction and to see how happy the kids were was surreal. Another thing I will NEVER forget. After that we prayed for them and the house, packed up all the equipment and went on our way. Such a strange feeling. The whole trip was a strange feeling. A trip filled with ups and downs, reality checks, perspective changes, and general appreciation for how good we truly have it.",
-        "On the way back it took a while to get through the border and when going through security my buddies were acting way to slack especially around joking about certain laws which definitely could have gotten them in trouble. It was way harder to get into Mexico than to get it out which I guess makes sense.",
-        "Once we got through, we bused all the way to San Diego for the day and since I was older of the bunch, I was able to explore the city on my own. I stated at chick file because I had never gone their prior and wanted to see what all the hype was about. Other than really good service, there wasn't really anything special about it. I like to travel a little differently than most who were there with me. Since we were only in San Diego for a day, I figured I do something only San Diego would offer. In this case I chose to do the USS Midway museum. This museum took place on the USS Midway aircraft carrier and was able to explore every level and every room of it. With exhibits in every room and many cool planes from World War 2 and the Vietnam war. Very cool place a definitely recommend for anyone going to San Diego. So, who did I go with. Me, myself, and I. While I was going to the museum everyone else went to the beach. Fair enough. It is California after all who would want to go to a stuffy museum. Me, I guess. To be fair if I pitched it a little better more people probably would have come. All I really said was that I was going to a museum which could look completely different in people's minds.",
+        {
+        text: "Next day was the last day in Mexico. The day we were finishing the house and presenting it to the family. Most of what we did was finish furnishing the inside and finishing the paint job. Once completed we called over the family into their new home and the look on their faces were priceless. Absolute joy and thankfulness about getting this tiny little home. A home in the middle of the Mexican desert with no air conditioning and no comforts and a nothing but a port a potty in the back behind the house. To see their reaction and to see how happy the kids were was surreal. Another thing I will NEVER forget. After that we prayed for them and the house, packed up all the equipment and went on our way. Such a strange feeling. The whole trip was a strange feeling. A trip filled with ups and downs, reality checks, perspective changes, and general appreciation for how good we truly have it.",
+        image: "Mexico7.jpg",
+        imageSide: "left"
+        },
+        {
+       text: "On the way back it took a while to get through the border and when going through security my buddies were acting way to slack especially around joking about certain laws which definitely could have gotten them in trouble. It was way harder to get into Mexico than to get it out which I guess makes sense.",
+       image: "Mexico9.jpg",
+       imageSide: "right"
+
+        },
+        {
+        text: "Once we got through, we bused all the way to San Diego for the day and since I was older of the bunch, I was able to explore the city on my own. I stated at chick file because I had never gone their prior and wanted to see what all the hype was about. Other than really good service, there wasn't really anything special about it. I like to travel a little differently than most who were there with me. Since we were only in San Diego for a day, I figured I do something only San Diego would offer. In this case I chose to do the USS Midway museum. This museum took place on the USS Midway aircraft carrier and was able to explore every level and every room of it. With exhibits in every room and many cool planes from World War 2 and the Vietnam war. Very cool place a definitely recommend for anyone going to San Diego. So, who did I go with. Me, myself, and I. While I was going to the museum everyone else went to the beach. Fair enough. It is California after all who would want to go to a stuffy museum. Me, I guess. To be fair if I pitched it a little better more people probably would have come. All I really said was that I was going to a museum which could look completely different in people's minds.",
+        image: "USS.jpg",
+        imageSide: "left"
+        links: [
+          { text: "USS Midway Museum", url: "https://www.midway.org/" }
+        ]
+
+        },
+        
         "That night was spent with my buddy's late night going to the store and getting some food for the hotel room. We watched some movies and hung out till late, and when the sun rose, so did we. Back to the airport we went, and onto the plane that took us home. The trip had come to an end.",
-        "Before I let you guys go, I just want to say to anyone considering going on a mission trip or people who haven't thought about it I would highly recommend it. It was an amazing experience. One I will never forget. One that changes your perspective and gives you a further appreciation of our lives and where we live.",
+       
+        {
+        text: "Before I let you guys go, I just want to say to anyone considering going on a mission trip or people who haven't thought about it I would highly recommend it. It was an amazing experience. One I will never forget. One that changes your perspective and gives you a further appreciation of our lives and where we live.",
+         image: "Mexico17.jpg",
+        imageSide: "right"
+        },
         "THE END"
       ]
     },
