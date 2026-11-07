@@ -183,18 +183,16 @@ const BLOG_CONTENT = {
     {
       id: "slow-mornings",
       section: "The Day to Day",
-      title: "A Case for Slow Mornings",
-      date: "A DAILY NOTE / 02",
-      place: "A quiet morning",
-      image: "hill",
-      summary: "A gentle reminder to leave space for unplanned, unhurried moments.",
-      opening: "Not every beautiful moment needs an itinerary.",
+      title: "300NM Trip to Prince George, BC",
+      date: "October 20th, 2026",
+      place: "CYXX-CZML-CYWL-CYXS",
+      image: "george.jpg",
+      summary: "Sometimes life just gives you lemonade.",
+      opening: "This has got to be one of my favorite flights ive ever done.",
       paragraphs: [
-        "Some days feel richer when they are allowed to unfold on their own. There is no checklist to finish, no landmark to reach before sunset. Just a little time to be.",
-        "I have always loved the hush of the early hours: the smell of coffee, the air before the day warms, the feeling that anything could happen.",
-        "The more I travel, the more I realize that it is often the smallest parts of a place that stay with me the longest."
+        "Story, coming soon...",
       ],
-      closing: "Here is to taking our time."
+      closing: "Sometimes you just get lucky"
     },
     {
       id: "postcards-from-coast",
