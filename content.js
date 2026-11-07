@@ -164,18 +164,21 @@ const BLOG_CONTENT = {
     {
       id: "the-in-between",
       section: "The Day to Day",
-      title: "The Beauty of the In-Between",
-      date: "A DAILY NOTE / 01",
-      place: "Somewhere quiet",
-      image: "hill",
-      summary: "On the slower days, the ordinary moments, and learning not to rush through a life worth remembering.",
-      opening: "Lately I have been thinking about all the little moments we tend to overlook while waiting for the next big thing.",
+      title: "First Mountain Flight",
+      date: "May 4th, 2026",
+      place: "CYXX-CYPS-CYLI",
+      image: "cyps.jpg",
+      summary: "Not all flights can be smooth. Even hawaii has storms.",
+      opening: "At long last. My mountain check was complete and am now ready to take on a new challenge. The mountains.",
       paragraphs: [
-        "There is a particular magic in a morning with no hurry. Coffee cooling beside an open window. Sunlight moving slowly across the floor. A conversation that goes on longer than planned.",
-        "We spend so much time looking ahead to what comes next that it is easy to forget we are already living the days we once looked forward to. I want to get better at noticing them.",
-        "Maybe an adventurous life is not only measured in passport stamps and distant destinations. Maybe it is also the willingness to see familiar things in a new light."
+        `The story I'm about to tell, starts with a trip. A trip like all typical ones done before starts. With preparations. Those with less time don’t have the luxury but, in my case, I could spare some. The dusk once set had now risen. Risen a new day for the taking. This day was unlike others. For today was the first day I’d fly solo into the mountains. The plan was simple. But simple doesn’t and always never mean easy. I went, accompanied by my father and set off from the airport of Abbotsford, BC. North bound we went off the 01 runway all the way to the riverside. Beyond that was a left turn to the west until we reached the ocean tides and followed the tracks up north till only mountains surrounded us. Along our path we entered some turbulence most likely caused by the wicks and wisps of air flowin over nearby mountain peaks.`,
+        `We tried to escape it’s hold but it held the area tight with it’s grasp. This was the type that was just meant to be endured. Mother nature often has that kind of effect. The one where you realize you ain’t really in control. Just at the mere mercy of her hold. We ended getting past most of it and down through the valley to the little town of Pemberton. Quiet here mostly, except for the occasional break of silence from birds and the swaying of trees. Much like where I live except empty. Like a yard with no animals. Duty was yet over as landing was made difficult due to the mountains surrounding, stirring air around the pot that surrounded the strip. Down I got us, after a few dips and bumps of course. We let our bodies rest for a few while we replenished with various bars and water.`,
+        `We ended up catching up with old pals of mine whom arrived shortly after us. My old flight instructor. She was the best. Taught me everything I knew about how to fly and how to survive when things take a turn for the worst. Our time yet not pressured, however limited with my hours, we decided to take off and head out east beyond these ridges to new waters and terrain. This place known as Lillooet. This didn’t come without a few challenges as the air that day was heavier than a barrel of sand. Took us some time to get airborne and more so to get to the right elevation. And on we went down new paths where streams combined and split down as far as the eye could see. About an hour had passed when we finally reached our next stop. Landing here was similar to that of Pemberton as ridgelines here emerged just the same.`,
+        `This stop was shorter as our time was so, and there wasn’t much to do here. No town. No people. Just a strip and a small building for communications and I should say releasing carried baggage. The only thing left to do now was fly. And fly we did, now heading south, the air was thick but thinning slowly. The suns tilt had now loosened its grip on the air and allowed us to climb as we pleased. Scenery out here is just beautiful. Down to the ravines, rivers, ridgelines, and trails. You could see it all from here. There wasn’t much of anything you couldn’t see from up here.`,
+        `That’s the beauty of flying you hear. Nothing goes unseen. No one bit of beauty goes unmissed. Our journey had reached all ends. Passing Hope, passing Chilliwack, and now down low aside the city side of Abbotsford. As we set the plane down, down to the ground, so to do the sun beyond the horizon. On its way to the rest of the world. That was it. Our journey had reached the end. Experience was taken and pictures were as well. For anyone not yet travelled to lands of mountains and valleys I’d recommend it for all. The mountains have a special way of making you feel especially small.`,
+        "THE END"
       ],
-      closing: "A reminder to myself: the little things are the big things, too."
+      closing: "The air is always smoother on the other side of the ridge."
     },
     {
       id: "slow-mornings",
