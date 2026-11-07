@@ -152,7 +152,7 @@ function renderTravels() {
         </div>
         <div class="tab-description">
           <span class="eyebrow">${dayToDay ? "THE EVERYDAY STORIES" : "Overnights and weekends away"}</span>
-          <p>${dayToDay ? "Just because it's not a trip, doesn't mean it's not interesting." : "Some inspirations for your future adventures."}</p>
+          <p>${dayToDay ? "Quick trips and cool places." : "Some inspirations for your future adventures."}</p>
         </div>
         <div class="journal-grid two-col">
           ${displayedJournals.length ? displayedJournals.map(journalCard).join("") : '<p>New stories coming soon.</p>'}
