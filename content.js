@@ -392,7 +392,7 @@ const BLOG_CONTENT = {
       title: "Missions Trip in Mexico",
       date: "TRAVEL JOURNAL / 03",
       place: "July, 2024",
-      image: "title.png",
+      image: "Mexico12.jpg",
       summary: "An unforgettable experience and one I would highly recommend",
       opening: "Life, Change, and Perspective.",
       paragraphs: [
@@ -447,7 +447,7 @@ const BLOG_CONTENT = {
         "On our way back we stopped at this little restaurant and had chicken tacos. What a weird feeling. From wandering the trails of lost, and meeting people at their absolute worst in the dirt and grime of trash hill, to tasty tacos with Mexican music playing aloud. Makes you feel a bit guilty but also fortunate. It's hard to see all that is happening and not be able to do a lot about it. And as much as we were helping, the effect felt minimal compared to the scale of it all. I guess the rest is up to the will of the people and the spirit of the Lord.",
         {
         text: "That night we went to Mexican church with amazing music and our paster ended up speaking the sermon. I can't remember exactly what the sermon was, but it was sure cool seeing the cultures mix and how church operates in a different country. Most of it was the same except for a few things. Apparently when it's someone's birthday, whoever's birthday it is in the church, everyone, and I mean EVERYONE must hug the birthday person. So there we were. All lined up to hug a Mexican I have never met in a church I've never been, in a country mostly foreign to me. But at that moment I felt at home. I felt welcome. For the church of Christ doesn't hold strangers, rather brothers and sisters of the one true father. And I felt at home.",
-        image: "church.jpg",
+        image: "Church.jpg",
         imageSide: "right"
 
         },
@@ -463,7 +463,7 @@ const BLOG_CONTENT = {
 
         },
         {
-        text: "Once we got through, we bused all the way to San Diego for the day and since I was older of the bunch, I was able to explore the city on my own. I stated at chick file because I had never gone their prior and wanted to see what all the hype was about. Other than really good service, there wasn't really anything special about it. I like to travel a little differently than most who were there with me. Since we were only in San Diego for a day, I figured I do something only San Diego would offer. In this case I chose to do the USS Midway museum. This museum took place on the USS Midway aircraft carrier and was able to explore every level and every room of it. With exhibits in every room and many cool planes from World War 2 and the Vietnam war. Very cool place a definitely recommend for anyone going to San Diego. So, who did I go with. Me, myself, and I. While I was going to the museum everyone else went to the beach. Fair enough. It is California after all who would want to go to a stuffy museum. Me, I guess. To be fair if I pitched it a little better more people probably would have come. All I really said was that I was going to a museum which could look completely different in people's minds.",
+        text: "Once we got through, we bused all the way to San Diego for the day and since I was older of the bunch, I was able to explore the city on my own. I started at chick file because I had never gone their prior and wanted to see what all the hype was about. Other than really good service, there wasn't really anything special about it. I like to travel a little differently than most who were there with me. Since we were only in San Diego for a day, I figured I do something only San Diego would offer. In this case I chose to do the USS Midway museum. This museum took place on the USS Midway aircraft carrier and was able to explore every level and every room of it. With exhibits in every room and many cool planes from World War 2 and the Vietnam war. Very cool place a definitely recommend for anyone going to San Diego. So, who did I go with. Me, myself, and I. While I was going to the museum everyone else went to the beach. Fair enough. It is California after all who would want to go to a stuffy museum. Me, I guess. To be fair if I pitched it a little better more people probably would have come. All I really said was that I was going to a museum which could look completely different in people's minds.",
         image: "USS.jpg",
         imageSide: "left",
         links: [
