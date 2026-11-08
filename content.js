@@ -636,6 +636,22 @@ const BLOG_CONTENT = {
   ],
   // Add places you personally hope to visit. Entries use the same format as `places`.
   bucketList: [
+    { name: "Skiing at Red Mountain, BC",  photos: ["lakee.jpg"], description: "Skiing is one of my favorite things to do in the winter, so of course I have to the best place in Canada for skiing. In Red Mountain, BC.", mapLinks: [{ label: "Check it out!", url: "https://www.redresort.com/" }] },
+    { name: "Golfing In Scotland",  photos: ["lakee.jpg"], description: "Golfing is another passion of mine so what better way to do it than by going to the roots of where golf all started. Scotland.", mapLinks: [{ label: "Check it out!", url: "https://www.scotlandsgolfcoast.com/" }] },
+    { name: "Seeing the Petra in Jordan",  photos: ["lakee.jpg"], description: "One the coolest sets a movie can have, and one with much history, the Petra is something i've always wanted to see.", mapLinks: [{ label: "Check it out!", url: "https://whc.unesco.org/en/list/326/" }] },
+    { name: "Visiting Hongkong",  photos: ["lakee.jpg"], description: "2 of my favorite things to see when traveling is the tropics and big cities. Hongkong is just that but combined into one package", mapLinks: [{ label: "Check it out!", url: "https://www.discoverhongkong.com/eng/index.html" }] },
+    { name: "Skiing in Switzerland", photos: ["lakee.jpg"], description: "I've never skiied anywhere except for Canada. This trip would make that happen and be a cool destination to visit", mapLinks: [{ label: "Check it out!", url: "https://www.ski.com/ski-resorts/switzerland" }] },
+    { name: "Road-trip along Route 66", photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
+    { name: "Hobbiton Tour in Newzealand",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
+    { name: "Carnival in Rio",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
+    { name: "Japan trip with the boys",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
+    { name: "Africa Missions trip",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
+    { name: "Trip to Rome",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
+    { name: "Visiting Family in Norway",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
+    { name: "The Oregon Coast",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
+    { name: "Trip to Korea",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
+    { name: "Costa Rica trip with the boys",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
+
     // { name: "A place to visit", label: "SOMEDAY SOON", photos: ["destination.jpg"], description: "Why I want to go.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=destination" }] },
   ],
 
