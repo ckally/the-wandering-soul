@@ -162,7 +162,7 @@ const BLOG_CONTENT = {
   //   - To hyperlink words, add links: [{ text, url }] to a paragraph object.
   journals: [
     {
-      id: "the-in-between",
+      id: "Mountain-Flight",
       section: "The Day to Day",
       title: "First Mountain Flight",
       date: "May 4th, 2026",
@@ -181,7 +181,7 @@ const BLOG_CONTENT = {
       closing: "The air is always smoother on the other side of the ridge."
     },
     {
-      id: "slow-mornings",
+      id: "300NM",
       section: "The Day to Day",
       title: "300NM Trip to Prince George, BC",
       date: "October 20th, 2026",
@@ -195,7 +195,7 @@ const BLOG_CONTENT = {
       closing: "Sometimes you just get lucky"
     },
     {
-      id: "postcards-from-coast",
+      id: "Banff-Alberta",
       section: "On the Road",
       title: "Camping in Banff, Alberta",
       date: "TRAVEL JOURNAL / 01",
@@ -292,7 +292,7 @@ const BLOG_CONTENT = {
       closing: "The feeling of being away and being home at the same time."
     },
     {
-      id: "the-long-way",
+      id: "Hawaiian-Islands",
       section: "On the Road",
       title: "Traveling to the Hawaiian Islands",
       date: "TRAVEL JOURNAL / 02",
@@ -388,7 +388,7 @@ const BLOG_CONTENT = {
       closing: "Whichever Island you choose will always be the right one."
     },
     {
-      id: "the-long-time",
+      id: "Mexico-Missions",
       section: "On the Road",
       title: "Missions Trip in Mexico",
       date: "TRAVEL JOURNAL / 03",
