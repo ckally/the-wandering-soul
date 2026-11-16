@@ -42,6 +42,7 @@ h1, h2, h3, .brand, .footer-brand {
 }
 
 .destination-photo-grid {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-auto-rows: minmax(0, 1fr);
@@ -57,6 +58,26 @@ h1, h2, h3, .brand, .footer-brand {
 
 .destination-photo-grid.single-photo {
   grid-template-columns: 1fr;
+}
+
+.destination-photo-credit {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 1;
+  padding: 6px 9px;
+  background: #101914c9;
+  color: var(--cream);
+  font-size: 10px;
+}
+
+.destination-photo-credit a {
+  color: inherit;
+}
+
+.bucket-list-stack .destination-photo-grid {
+  height: 480px;
+  min-height: 0;
 }
 
 .destination-map-links {
@@ -104,6 +125,10 @@ h1, h2, h3, .brand, .footer-brand {
 
   .destination-photo-grid {
     min-height: 360px;
+  }
+
+  .bucket-list-stack .destination-photo-grid {
+    height: 350px;
   }
 
   .about-layout {

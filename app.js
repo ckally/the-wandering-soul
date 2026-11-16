@@ -249,6 +249,7 @@ function renderDestinationCards(destinations) {
       <article class="destination-feature ${index % 2 ? "reverse" : ""}">
         <div class="destination-photo destination-photo-grid ${photos.length === 1 ? "single-photo" : ""}">
           ${photos.map((photo, photoIndex) => imageTag(photo, `${place.name} photo ${photoIndex + 1}`)).join("")}
+          ${place.photoCredit ? `<small class="destination-photo-credit"><a href="${escapeHTML(place.photoCredit.url)}" target="_blank" rel="noopener">Photo: ${escapeHTML(place.photoCredit.name)}</a><span> · ${escapeHTML(place.photoCredit.license)}</span></small>` : ""}
         </div>
         <div class="destination-description">
           <span class="eyebrow">${String(index + 1).padStart(2, "0")} / ${escapeHTML(place.label)}</span>
@@ -278,7 +279,7 @@ function renderPlaces() {
 function renderBucketList() {
   const destinations = content.bucketList;
   const entries = destinations.length
-    ? `<div class="destination-stack">${renderDestinationCards(destinations)}</div>`
+    ? `<div class="destination-stack bucket-list-stack">${renderDestinationCards(destinations)}</div>`
     : `<div class="bucket-list-empty">
         <span class="eyebrow">YOUR NEXT ADVENTURE</span>
         <p>Your travel wish list starts here. Add the places you dream of visiting to the <code>bucketList</code> in content.js.</p>

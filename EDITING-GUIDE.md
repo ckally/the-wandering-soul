@@ -137,14 +137,19 @@ The **Where to Next?** page is your personal travel bucket list. In `content.js`
   name: "A place I hope to visit",
   label: "SOMEDAY SOON",
   photos: ["destination.jpg"],
+  photoCredit: {
+    name: "Photographer name",
+    license: "CC BY 4.0",
+    url: "https://commons.wikimedia.org/wiki/File:Example.jpg"
+  },
   description: "What makes me want to go.",
   mapLinks: [
-    { label: "Check it out", url: "https://www.google.com/maps/search/?api=1&query=destination" }
+    { label: "Check it out!", url: "https://www.google.com/maps/search/?api=1&query=destination" }
   ]
 },
 ```
 
-Add your photos to `assets/gallery/` first. You can include multiple photos and map links just like the destinations in SECTION 8. The list starts empty so you can fill it with places you actually want to visit.
+Add your photos to `assets/gallery/` first, or use a direct image URL. When reusing a photo that requires attribution, add a `photoCredit` object with the creator's name, license, and source-page URL; the credit appears over the photo. Use map URLs for the exact places you want to visit. You can include multiple photos and map links just like the destinations in SECTION 8.
 
 ## 8. Add a song or change the Spotify playlist
 

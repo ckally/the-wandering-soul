@@ -636,23 +636,113 @@ const BLOG_CONTENT = {
   ],
   // Add places you personally hope to visit. Entries use the same format as `places`.
   bucketList: [
-    { name: "Skiing at Red Mountain, BC",  photos: ["lakee.jpg"], description: "Skiing is one of my favorite things to do in the winter, so of course I have to the best place in Canada for skiing. In Red Mountain, BC.", mapLinks: [{ label: "Check it out!", url: "https://www.redresort.com/" }] },
-    { name: "Golfing In Scotland",  photos: ["lakee.jpg"], description: "Golfing is another passion of mine so what better way to do it than by going to the roots of where golf all started. Scotland.", mapLinks: [{ label: "Check it out!", url: "https://www.scotlandsgolfcoast.com/" }] },
-    { name: "Seeing the Petra in Jordan",  photos: ["lakee.jpg"], description: "One the coolest sets a movie can have, and one with much history, the Petra is something i've always wanted to see.", mapLinks: [{ label: "Check it out!", url: "https://whc.unesco.org/en/list/326/" }] },
-    { name: "Visiting Hongkong",  photos: ["lakee.jpg"], description: "2 of my favorite things to see when traveling is the tropics and big cities. Hongkong is just that but combined into one package", mapLinks: [{ label: "Check it out!", url: "https://www.discoverhongkong.com/eng/index.html" }] },
-    { name: "Skiing in Switzerland", photos: ["lakee.jpg"], description: "I've never skiied anywhere except for Canada. This trip would make that happen and be a cool destination to visit", mapLinks: [{ label: "Check it out!", url: "https://www.ski.com/ski-resorts/switzerland" }] },
-    { name: "Road-trip along Route 66", photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
-    { name: "Hobbiton Tour in Newzealand",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
-    { name: "Carnival in Rio",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
-    { name: "Japan trip with the boys",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
-    { name: "Africa Missions trip",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
-    { name: "Trip to Rome",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
-    { name: "Visiting Family in Norway",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
-    { name: "The Oregon Coast",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
-    { name: "Trip to Korea",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
-    { name: "Costa Rica trip with the boys",  photos: ["lakee.jpg"], description: "I want to go skiing at Lake Louise in Alberta, Canada.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=Lake+Louise" }] },
+    {
+      name: "Skiing at Red Mountain, BC",
+      photos: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/A_short_visit_to_Rossland_BC%2C_and_the_Red_Mountain_Ski_Resort_-_the_original_Red_Mtn_ski_mountain_-_the_%2819699689315%29.jpg/1920px-A_short_visit_to_Rossland_BC%2C_and_the_Red_Mountain_Ski_Resort_-_the_original_Red_Mtn_ski_mountain_-_the_%2819699689315%29.jpg"],
+      photoCredit: { name: "Murray Foubister", license: "CC BY-SA 2.0", url: "https://commons.wikimedia.org/wiki/File:A_short_visit_to_Rossland_BC,_and_the_Red_Mountain_Ski_Resort_-_the_original_Red_Mtn_ski_mountain_-_the_(19699689315).jpg" },
+      description: "Skiing is one of my favorite things to do in the winter, so of course I have to the best place in Canada for skiing. In Red Mountain, BC.",
+      mapLinks: [{ label: "Check it out!", url: "https://www.redresort.com/" }]
+    },
+    {
+      name: "Golfing In Scotland",
+      photos: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/R%26A_Clubhouse%2C_Old_Course%2C_Swilcan_Burn_bridge.jpg/1920px-R%26A_Clubhouse%2C_Old_Course%2C_Swilcan_Burn_bridge.jpg"],
+      photoCredit: { name: "Optograph", license: "CC BY-SA 3.0", url: "https://commons.wikimedia.org/wiki/File:R%26A_Clubhouse,_Old_Course,_Swilcan_Burn_bridge.jpg" },
+      description: "Golfing is another passion of mine so what better way to do it than by going to the roots of where golf all started. Scotland.",
+      mapLinks: [{ label: "Check it out!", url: "https://www.scotlandsgolfcoast.com/" }]
+    },
+    {
+      name: "Seeing the Petra in Jordan",
+      photos: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/The_Treasury%2C_Petra%2C_Jordan1.jpg/1920px-The_Treasury%2C_Petra%2C_Jordan1.jpg"],
+      photoCredit: { name: "Diego Delso", license: "CC BY-SA 3.0", url: "https://commons.wikimedia.org/wiki/File:The_Treasury,_Petra,_Jordan1.jpg" },
+      description: "One the coolest sets a movie can have, and one with much history, the Petra is something i've always wanted to see.",
+      mapLinks: [{ label: "Check it out!", url: "https://whc.unesco.org/en/list/326/" }]
+    },
+    {
+      name: "Visiting Hongkong",
+      photos: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/International_Commerce_Centre_on_Victoria_Harbour.jpg/1920px-International_Commerce_Centre_on_Victoria_Harbour.jpg"],
+      photoCredit: { name: "Wilfredor", license: "CC0", url: "https://commons.wikimedia.org/wiki/File:International_Commerce_Centre_on_Victoria_Harbour.jpg" },
+      description: "2 of my favorite things to see when traveling is the tropics and big cities. Hongkong is just that but combined into one package",
+      mapLinks: [{ label: "Check it out!", url: "https://www.discoverhongkong.com/eng/index.html" }]
+    },
+    {
+      name: "Skiing in Switzerland",
+      photos: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/CH.VS.Zermatt_2022-12-28_Matterhorn-Glacier-Paradise_5094_3x2-R_9K.jpg/1920px-CH.VS.Zermatt_2022-12-28_Matterhorn-Glacier-Paradise_5094_3x2-R_9K.jpg"],
+      photoCredit: { name: "Roy Egloff", license: "CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:CH.VS.Zermatt_2022-12-28_Matterhorn-Glacier-Paradise_5094_3x2-R_9K.jpg" },
+      description: "I've never skiied anywhere except for Canada. This trip would make that happen and be a cool destination to visit",
+      mapLinks: [{ label: "Check it out!", url: "https://www.ski.com/ski-resorts/switzerland" }]
+    },
+    {
+      name: "Road-trip along Route 66",
+      photos: ["https://upload.wikimedia.org/wikipedia/commons/0/0d/Arizona_-_U.S._Highway_66_Across_Arizona_%28NBY_436843%29.jpg"],
+      photoCredit: { name: "Unknown author", license: "Public domain", url: "https://commons.wikimedia.org/wiki/File:Arizona_-_U.S._Highway_66_Across_Arizona_(NBY_436843).jpg" },
+      description: "A childhood dream everyone had after watching Cars for the first time. Something I've always wanted to do",
+      mapLinks: [{ label: "Check it out!", url: "https://www.google.com/maps/search/?api=1&query=Historic+Route+66%2C+United+States" }]
+    },
+    {
+      name: "Hobbiton Tour in Newzealand",
+      photos: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Hobbit_Holes_on_the_Hillside%2C_Hobbiton_Movie_Set%2C_Matamata%2C_New_Zealand_2016_%2850797321217%29.jpg/1280px-Hobbit_Holes_on_the_Hillside%2C_Hobbiton_Movie_Set%2C_Matamata%2C_New_Zealand_2016_%2850797321217%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"],
+      photoCredit: { name: "Joe Ross from Lansing, Michigan", license: "CC BY-SA 2.0", url: "https://commons.wikimedia.org/wiki/File:Hobbit_Holes_on_the_Hillside,_Hobbiton_Movie_Set,_Matamata,_New_Zealand_2016_(50797321217).jpg" },
+      description: "Lord of the rings is one of my favorite movies. One about advenuture, courage, and fighting against evil. The fact that you can see where it was filmed and experience it first hand makes this essential to this list.",
+      mapLinks: [{ label: "Check it out!", url: "https://www.google.com/maps/search/?api=1&query=Hobbiton+Movie+Set%2C+Matamata%2C+New+Zealand" }]
+    },
+    {
+      name: "Carnival in Rio",
+      photos: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Samba_Parade_-_Rio%27s_Carnival_2008.jpg/1920px-Samba_Parade_-_Rio%27s_Carnival_2008.jpg"],
+      photoCredit: { name: "Randal Sheppard", license: "CC BY-SA 2.0", url: "https://commons.wikimedia.org/wiki/File:Samba_Parade_-_Rio%27s_Carnival_2008.jpg" },
+      description: "I mean come on. What a cool place and one of the coolest events of all time",
+      mapLinks: [{ label: "Check it out!", url: "https://www.google.com/maps/search/?api=1&query=Rio+Carnival%2C+Rio+de+Janeiro%2C+Brazil" }]
+    },
+    {
+      name: "Japan trip with the boys",
+      photos: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Tokyo_Tower%2C_Minato_City.jpg/1920px-Tokyo_Tower%2C_Minato_City.jpg"],
+      photoCredit: { name: "David Kernan", license: "CC BY 4.0", url: "https://commons.wikimedia.org/wiki/File:Tokyo_Tower,_Minato_City.jpg" },
+      description: "I think every guy group has this trip in their notes app for future travels.",
+      mapLinks: [{ label: "Check it out!", url: "https://www.google.com/maps/search/?api=1&query=Tokyo%2C+Japan" }]
+    },
+    {
+      name: "Africa Missions trip",
+      photos: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Savanna_landscape_at_Sabi_Sand.jpg/1920px-Savanna_landscape_at_Sabi_Sand.jpg"],
+      photoCredit: { name: "Cosal", license: "CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:Savanna_landscape_at_Sabi_Sand.jpg" },
+      description: "After doing a missions trip in Mexico it is clear what weve been called to do as followers of Christ. And an African missions trip has always been on my list especially considering my parents sponsors kids there.",
+      mapLinks: [{ label: "Check it out!", url: "https://www.google.com/maps/search/?api=1&query=Africa" }]
+    },
+    {
+      name: "Trip to Rome",
+      photos: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Colosseum_in_Rome-April_2007-1-_copie_2B.jpg/1920px-Colosseum_in_Rome-April_2007-1-_copie_2B.jpg"],
+      photoCredit: { name: "Diliff", license: "CC BY-SA 2.5", url: "https://commons.wikimedia.org/wiki/File:Colosseum_in_Rome-April_2007-1-_copie_2B.jpg" },
+      description: "When in rome. Gotta see it. Rich with history and crazy architecture that has stood the test of time for ages.",
+      mapLinks: [{ label: "Check it out!", url: "https://www.google.com/maps/search/?api=1&query=Rome%2C+Italy" }]
+    },
+    {
+      name: "Visiting Family in Norway",
+      photos: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/At_Lyngen_fjord%2C_Sp%C3%A5kenes_in_2012_June.jpg/1920px-At_Lyngen_fjord%2C_Sp%C3%A5kenes_in_2012_June.jpg"],
+      photoCredit: { name: "Ximonic (Simo Räsänen)", license: "CC BY-SA 3.0", url: "https://commons.wikimedia.org/wiki/File:At_Lyngen_fjord,_Sp%C3%A5kenes_in_2012_June.jpg" },
+      description: "Given that I'm half Norwegian, and I have family there, this trip is a must for me.",
+      mapLinks: [{ label: "Check it out!", url: "https://www.google.com/maps/search/?api=1&query=Norway" }]
+    },
+    {
+      name: "The Oregon Coast",
+      photos: ["https://upload.wikimedia.org/wikipedia/commons/f/fd/Sea_Stacks_on_Oregon_Coast.jpg"],
+      photoCredit: { name: "Michael Theberge", license: "Public domain", url: "https://commons.wikimedia.org/wiki/File:Sea_Stacks_on_Oregon_Coast.jpg" },
+      description: "The Oregon coast and the Oregon trail are both things I really want to see. Ever since watching the show 'gravity falls' this naturous vibe has never left me.",
+      mapLinks: [{ label: "Check it out!", url: "https://www.google.com/maps/search/?api=1&query=Oregon+Coast%2C+Oregon%2C+USA" }]
+    },
+    {
+      name: "Trip to Korea",
+      photos: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Skyline_view_from_Seoul_City_%28South_Korea%29.jpg/1920px-Skyline_view_from_Seoul_City_%28South_Korea%29.jpg"],
+      photoCredit: { name: "Flickr - Laurie Nevay", license: "CC BY-SA 2.0", url: "https://commons.wikimedia.org/wiki/File:Skyline_view_from_Seoul_City_(South_Korea).jpg" },
+      description: "Ever since my trip to Singapore, I've been dying to go back to Asia and visit more of it's countries.",
+      mapLinks: [{ label: "Check it out!", url: "https://www.google.com/maps/search/?api=1&query=Seoul%2C+South+Korea" }]
+    },
+    {
+      name: "Costa Rica trip with the boys",
+      photos: ["https://upload.wikimedia.org/wikipedia/commons/1/19/Waterfall_in_rainforest.jpg"],
+      photoCredit: { name: "Olga Saenz", license: "CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:Waterfall_in_rainforest.jpg" },
+      description: "Just read the title. You get it",
+      mapLinks: [{ label: "Check it out!", url: "https://www.google.com/maps/search/?api=1&query=Costa+Rica" }]
+    },
 
-    // { name: "A place to visit", label: "SOMEDAY SOON", photos: ["destination.jpg"], description: "Why I want to go.", mapLinks: [{ label: "EXPLORE THE MAP", url: "https://www.google.com/maps/search/?api=1&query=destination" }] },
+    // { name: "A place to visit", label: "SOMEDAY SOON", photos: ["destination.jpg"], description: "Why I want to go.", mapLinks: [{ label: "Check it out!", url: "https://www.google.com/maps/search/?api=1&query=destination" }] },
   ],
 
   // ========================================================================
